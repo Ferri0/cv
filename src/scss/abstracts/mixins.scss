@@ -1,0 +1,14 @@
+// example
+// @include flex(column, space-between, center);
+
+@mixin flex($dir: row, $justify: normal, $align: normal) {
+  display: flex;
+  flex-direction: $dir;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
