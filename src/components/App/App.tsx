@@ -3,6 +3,7 @@ import './App.scss';
 import CentralColumn from '../CentralColumn';
 import SideColumn from '../SideColumn';
 import SectionTitle from '../SectionTitle';
+import * as experienceData from '../../data/experience.json';
 
 function App() {
   return (
