@@ -1,4 +1,22 @@
 {
+  "switchLangBtns": {
+    "en": {
+      "en": "Set EN lang",
+      "ru": "Установить анлийский язык",
+      "ua": "Встановити англійську мову"
+    },
+    "ru": {
+      "en": "Set RU lang",
+      "ru": "Установить русский язык",
+      "ua": "Встановити російську мову"
+    },
+    "ua": {
+      "en": "Set UA lang",
+      "ru": "Установить украинский язык",
+      "ua": "Встановити українську мову"
+    }
+  },
+
   "1": {
     "company": "CALIFORNIA DESIGN INC.",
     "position": "CREATIVE DIRECTOR",
