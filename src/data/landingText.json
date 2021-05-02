@@ -1,5 +1,5 @@
 {
-  "switchLangBtns": {
+  "switchLangBtn": {
     "en": {
       "en": "Set EN lang",
       "ru": "Установить анлийский язык",
@@ -14,6 +14,13 @@
       "en": "Set UA lang",
       "ru": "Установить украинский язык",
       "ua": "Встановити українську мову"
+    }
+  },
+  "sectionTitle": {
+    "experience": {
+      "en": "Experience",
+      "ru": "Опыт",
+      "ua": "Досвід"
     }
   },
 

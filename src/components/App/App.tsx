@@ -48,23 +48,27 @@ function App() {
           }}>
           {lang}
           <button onClick={() => dispatch(setEnLangAction())}>
-            {landingTextData.switchLangBtns.en[lang]}
+            {landingTextData.switchLangBtn.en[lang]}
           </button>
           <button onClick={() => dispatch(setRuLangAction())}>
-            {landingTextData.switchLangBtns.ru[lang]}
+            {landingTextData.switchLangBtn.ru[lang]}
           </button>
           <button onClick={() => dispatch(setUaLangAction())}>
-            {landingTextData.switchLangBtns.ua[lang]}
+            {landingTextData.switchLangBtn.ua[lang]}
           </button>
         </div>
       </div>
 
       <SideColumn textAlign={'right'}>
-        <SectionTitle titleText={'Section 1'} />
+        <SectionTitle
+          titleText={landingTextData.sectionTitle.experience[lang]}
+        />
       </SideColumn>
       <CentralColumn />
       <SideColumn textAlign={'left'}>
-        <SectionTitle titleText={'Section 2'} />
+        <SectionTitle
+          titleText={landingTextData.sectionTitle.experience[lang]}
+        />
       </SideColumn>
     </div>
   );
