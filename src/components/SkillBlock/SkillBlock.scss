@@ -1,0 +1,29 @@
+@import '../../scss/abstracts.scss';
+
+.skill-block {
+  width: 100%;
+  margin-top: 7px;
+  font-size: 15px;
+  background-color: red;
+
+  &--left-column {
+    @include flex(row, flex-end, flex-start);
+  }
+}
+
+.skill-block__points {
+  width: 150px;
+  @include flex(row, space-between, flex-start);
+}
+
+.point {
+  width: 20px;
+  height: 20px;
+
+  &--filled {
+    background-color: black;
+  }
+  &--empty {
+    border: 1px solid black;
+  }
+}

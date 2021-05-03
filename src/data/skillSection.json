@@ -21,6 +21,10 @@
       {
         "skill": "Webpack",
         "level": "4"
+      },
+      {
+        "skill": "Webpack2",
+        "level": "4"
       }
     ]
   },
