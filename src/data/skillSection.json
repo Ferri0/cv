@@ -1,0 +1,52 @@
+{
+  "left": {
+    "skillSectionTitle": {
+      "en": "Skills",
+      "ru": "Навыки",
+      "ua": "Навичкі"
+    },
+    "skillSectionSkills": [
+      {
+        "skill": "JavaScript",
+        "level": "5"
+      },
+      {
+        "skill": "HTML5",
+        "level": "5"
+      },
+      {
+        "skill": "CSS3",
+        "level": "5"
+      },
+      {
+        "skill": "Webpack",
+        "level": "4"
+      }
+    ]
+  },
+  "right": {
+    "skillSectionTitle": {
+      "en": "Skills",
+      "ru": "Навыки",
+      "ua": "Навичкі"
+    },
+    "skillSectionSkills": [
+      {
+        "skill": "JavaScript",
+        "level": "5"
+      },
+      {
+        "skill": "HTML5",
+        "level": "5"
+      },
+      {
+        "skill": "CSS3",
+        "level": "5"
+      },
+      {
+        "skill": "Webpack",
+        "level": "4"
+      }
+    ]
+  }
+}
