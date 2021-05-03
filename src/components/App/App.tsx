@@ -63,9 +63,7 @@ function App() {
       </SideColumn>
       <CentralColumn />
       <SideColumn textAlign={'left'}>
-        <SectionTitle
-          titleText={landingTextData.sectionTitle.experience[lang]}
-        />
+        <div />
       </SideColumn>
     </div>
   );

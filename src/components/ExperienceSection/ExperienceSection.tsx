@@ -1,7 +1,7 @@
 import React from 'react';
 import './ExperienceSection.scss';
 import SectionTitle from '../SectionTitle';
-import * as landingTextData from '../../data/landingText.json';
+import * as experienceSection from '../../data/experienceSection.json';
 import {RootStateOrAny, useSelector} from 'react-redux';
 import ExperienceBlock from '../ExperienceBlock';
 
@@ -17,15 +17,19 @@ function ExperienceSection() {
 
   return (
     <section className={'experience'}>
-      <SectionTitle titleText={landingTextData.sectionTitle.experience[lang]} />
-      {landingTextData.experienceSection[lang].map((experienceBlockData) => {
-        return (
-          <ExperienceBlock
-            key={experienceBlockData.company}
-            data={experienceBlockData}
-          />
-        );
-      })}
+      <SectionTitle
+        titleText={experienceSection.experienceSectionTitle[lang]}
+      />
+      {experienceSection.experienceSectionText[lang].map(
+        (experienceBlockData) => {
+          return (
+            <ExperienceBlock
+              key={experienceBlockData.company}
+              data={experienceBlockData}
+            />
+          );
+        }
+      )}
     </section>
   );
 }
