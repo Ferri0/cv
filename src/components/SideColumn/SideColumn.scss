@@ -5,4 +5,12 @@
   height: 100vh;
   padding: 300px 25px 0;
   background-color: #a2dad5;
+
+  &--align-right {
+    text-align: right;
+  }
+
+  &--align-left {
+    text-align: left;
+  }
 }

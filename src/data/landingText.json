@@ -23,23 +23,84 @@
       "ua": "Досвід"
     }
   },
-
-  "1": {
-    "company": "CALIFORNIA DESIGN INC.",
-    "position": "CREATIVE DIRECTOR",
-    "period": "Sept 2015 - Current",
-    "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
-  },
-  "2": {
-    "company": "CALIFORNIA DESIGN INC.",
-    "position": "CREATIVE DIRECTOR",
-    "period": "Sept 2015 - Current",
-    "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
-  },
-  "3": {
-    "company": "CALIFORNIA DESIGN INC.",
-    "position": "CREATIVE DIRECTOR",
-    "period": "Sept 2015 - Current",
-    "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+  "experienceSection": {
+    "en": [
+      {
+        "company": "CALIFORNIA DESIGN INC. 1",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      },
+      {
+        "company": "CALIFORNIA DESIGN INC. 2",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      },
+      {
+        "company": "CALIFORNIA DESIGN INC. 3",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      },
+      {
+        "company": "CALIFORNIA DESIGN INC. 4",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      }
+    ],
+    "ru": [
+      {
+        "company": "Компания 1",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      },
+      {
+        "company": "CALIFORNIA DESIGN INC. 2",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      },
+      {
+        "company": "CALIFORNIA DESIGN INC. 3",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      },
+      {
+        "company": "CALIFORNIA DESIGN INC. 4",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      }
+    ],
+    "ua": [
+      {
+        "company": "Перша компанія",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      },
+      {
+        "company": "CALIFORNIA DESIGN INC. 2",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      },
+      {
+        "company": "CALIFORNIA DESIGN INC. 3",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      },
+      {
+        "company": "CALIFORNIA DESIGN INC. 4",
+        "position": "CREATIVE DIRECTOR",
+        "period": "Sept 2015 - Current",
+        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry standard"
+      }
+    ]
   }
 }

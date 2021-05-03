@@ -1,0 +1,30 @@
+@import '../../scss/abstracts';
+
+.experience-block {
+  width: 100%;
+  margin-top: $margin-separator-top;
+
+  & > * {
+    margin-top: 5px;
+  }
+
+  &__company {
+    font-size: 20px;
+    background-color: green;
+  }
+
+  &__position {
+    font-size: 16px;
+    background-color: blueviolet;
+  }
+
+  &__period {
+    font-size: 14px;
+    background-color: aqua;
+  }
+
+  &__description {
+    font-size: 14px;
+    background-color: aquamarine;
+  }
+}

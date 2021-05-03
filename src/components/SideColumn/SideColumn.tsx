@@ -7,7 +7,11 @@ type sideColumnProps = {
 };
 
 function SideColumn({textAlign, children}: sideColumnProps) {
-  return <div className={'side-column'}>{children}</div>;
+  return (
+    <div className={`side-column side-column--align-${textAlign}`}>
+      {children}
+    </div>
+  );
 }
 
 export default SideColumn;
