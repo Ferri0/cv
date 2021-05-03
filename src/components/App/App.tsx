@@ -11,6 +11,7 @@ import {
   setRuLangAction,
   setUaLangAction,
 } from '../../store/langReducer';
+import ExperienceSection from '../ExperienceSection';
 
 function App() {
   const dispatch = useDispatch();
@@ -21,8 +22,6 @@ function App() {
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );
-
-  console.log('render App');
 
   return (
     <div className={'app'}>
@@ -60,9 +59,7 @@ function App() {
       </div>
 
       <SideColumn textAlign={'right'}>
-        <SectionTitle
-          titleText={landingTextData.sectionTitle.experience[lang]}
-        />
+        <ExperienceSection />
       </SideColumn>
       <CentralColumn />
       <SideColumn textAlign={'left'}>
