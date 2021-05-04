@@ -3,12 +3,12 @@
   "eduSectionText": {
     "en": [
       {
-        "institution": "RSSchool REACT",
-        "period": "Feb 2015 - May 2021",
+        "institution": "RS School REACT",
+        "period": "Feb 2021 - May 2021",
         "certificate": "Certificate"
       },
       {
-        "institution": "RSSchool JS/FRONT-END",
+        "institution": "RS School JS/FRONT-END",
         "period": "Sept 2020 - Feb 2021",
         "certificate": "Certificate"
       },
@@ -20,36 +20,36 @@
     ],
     "ru": [
       {
-        "institution": "Компания 1",
-        "period": "Sept 2015 - Current",
-        "certificate": "link"
+        "institution": "RS School REACT",
+        "period": "Февраль 2021 - Май 2021",
+        "certificate": "Сертификат"
       },
       {
-        "institution": "CALIFORNIA DESIGN INC. 2",
-        "period": "Sept 2015 - Current",
-        "certificate": "link"
+        "institution": "RS School JS/FRONT-END",
+        "period": "Сентябрь 2020 - Февраль 2021",
+        "certificate": "Сертификат"
       },
       {
-        "institution": "CALIFORNIA DESIGN INC. 3",
-        "period": "Sept 2015 - Current",
-        "certificate": "link"
+        "institution": "НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. А.А. БОГОМОЛЬЦА",
+        "period": "Февраль 2013 - Июнь 2019",
+        "certificate": "Диплом"
       }
     ],
     "ua": [
       {
-        "institution": "Перша компанія",
-        "period": "Sept 2015 - Current",
-        "certificate": "link"
+        "institution": "RS School REACT",
+        "period": "Лютий 2021 - Травень 2021",
+        "certificate": "Сертифікат"
       },
       {
-        "institution": "CALIFORNIA DESIGN INC. 2",
-        "period": "Sept 2015 - Current",
-        "certificate": "link"
+        "institution": "RS School JS/FRONT-END",
+        "period": "Вересень 2020 - Лютий 2021",
+        "certificate": "Сертифікат"
       },
       {
-        "institution": "CALIFORNIA DESIGN INC. 3",
-        "period": "Sept 2015 - Current",
-        "certificate": "link"
+        "institution": "НАЦІОНАЛЬНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ ІМ. О.О. Богомольця",
+        "period": "Лютий 2013 - Червень 2019",
+        "certificate": "Диплом"
       }
     ]
   }
