@@ -2,7 +2,6 @@ import React from 'react';
 import './App.scss';
 import CentralColumn from '../CentralColumn';
 import SideColumn from '../SideColumn';
-import SectionTitle from '../SectionTitle';
 import * as landingTextData from '../../data/landingText.json';
 import {RootStateOrAny, useDispatch, useSelector} from 'react-redux';
 import {switchThemeAction} from '../../store/themeReducer';
