@@ -1,9 +1,33 @@
-//example
 //@extend %absolute-center;
+@import '../abstracts/constants';
 
-%absolute-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+// Section title font settings
+%font-section-title {
+  font-weight: 400;
+  font-size: $text-2;
+  font-family: $font-header;
+  text-transform: uppercase;
+}
+
+// Experience block font settings
+%font-exp-company {
+  font-weight: 400;
+  font-size: $text-3;
+  font-family: $font-header;
+  text-transform: uppercase;
+}
+%font-exp-position {
+  font-weight: 400;
+  font-size: $text-4;
+  font-family: $font-header;
+}
+%font-exp-period {
+  font-weight: 400;
+  font-size: $text-5;
+  font-family: $font-regular;
+}
+%font-exp-description {
+  font-weight: 400;
+  font-size: $text-5;
+  font-family: $font-regular;
 }

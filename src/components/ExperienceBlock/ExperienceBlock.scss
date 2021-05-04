@@ -9,22 +9,22 @@
   }
 
   &__company {
-    font-size: 20px;
+    @extend %font-exp-company;
     background-color: green;
   }
 
   &__position {
-    font-size: 16px;
+    @extend %font-exp-position;
     background-color: blueviolet;
   }
 
   &__period {
-    font-size: 14px;
+    @extend %font-exp-period;
     background-color: aqua;
   }
 
   &__description {
-    font-size: 14px;
-    background-color: aquamarine;
+    @extend %font-exp-description;
+    background-color: #7575e1;
   }
 }
