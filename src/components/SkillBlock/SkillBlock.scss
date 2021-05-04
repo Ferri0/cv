@@ -8,7 +8,7 @@
 .skill-block {
   @extend %font-block-skill;
   width: 100%;
-  margin-top: $margin-separator-3;
+  margin-top: $margin-separator-2;
 
   &--left-column {
     @include flex(row, flex-end, flex-start);
