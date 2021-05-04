@@ -13,6 +13,7 @@ import {
 import ExperienceSection from '../ExperienceSection';
 import SkillSection from '../SkillSection';
 import EduSection from '../EduSection';
+import ProjectSection from '../ProjectsSection';
 
 function App() {
   const dispatch = useDispatch();
@@ -65,6 +66,7 @@ function App() {
       </SideColumn>
       <CentralColumn />
       <SideColumn textAlign={'left'}>
+        <ProjectSection />
         <EduSection />
         <SkillSection column={'right'} />
       </SideColumn>
