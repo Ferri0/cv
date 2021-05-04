@@ -1,6 +1,6 @@
 @import '../../scss/abstracts';
 
-.experience-block {
+.edu-block {
   width: 100%;
   margin-top: $margin-separator-3;
 
@@ -8,14 +8,9 @@
     margin-top: $margin-separator-4;
   }
 
-  &__company {
+  &__institution {
     @extend %font-exp-company;
     background-color: green;
-  }
-
-  &__position {
-    @extend %font-exp-position;
-    background-color: blueviolet;
   }
 
   &__period {
@@ -23,7 +18,7 @@
     background-color: aqua;
   }
 
-  &__description {
+  &__certificate {
     @extend %font-exp-description;
     background-color: #7575e1;
   }

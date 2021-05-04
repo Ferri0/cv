@@ -3,6 +3,7 @@ import './EduSection.scss';
 import {RootStateOrAny, useSelector} from 'react-redux';
 import * as eduSection from '../../data/eduSection.json';
 import SectionTitle from '../SectionTitle';
+import EduBlock from '../EduBlock';
 
 function EduSection() {
   // TODO implement theme change
@@ -18,9 +19,7 @@ function EduSection() {
     <section className={'education'}>
       <SectionTitle titleText={eduSection.eduSectionTitle[lang]} />
       {eduSection.eduSectionText[lang].map((eduBlockData) => {
-        return (
-          <div key={eduBlockData.institution}>{eduBlockData.institution}</div>
-        );
+        return <EduBlock data={eduBlockData} />;
       })}
     </section>
   );
