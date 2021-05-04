@@ -1,23 +1,30 @@
 @import '../../scss/abstracts.scss';
 
+.skill-block__points {
+  width: 150px;
+  @include flex(row, space-between, flex-start);
+}
+
 .skill-block {
+  @extend %font-block-skill;
   width: 100%;
   margin-top: $margin-separator-3;
-  font-size: 15px;
-  background-color: red;
 
   &--left-column {
     @include flex(row, flex-end, flex-start);
+
+    & .skill-block__points {
+      margin-left: 25px;
+    }
   }
 
   &--right-column {
     @include flex(row-reverse, flex-end, flex-start);
-  }
-}
 
-.skill-block__points {
-  width: 150px;
-  @include flex(row, space-between, flex-start);
+    & .skill-block__points {
+      margin-right: 25px;
+    }
+  }
 }
 
 .point {
@@ -25,9 +32,9 @@
   height: 20px;
 
   &--filled {
-    background-color: black;
+    background-color: $color-block-title;
   }
   &--empty {
-    border: 1px solid black;
+    border: 1px solid $color-block-title;
   }
 }

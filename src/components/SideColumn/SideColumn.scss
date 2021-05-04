@@ -3,7 +3,7 @@
 .side-column {
   @include flex(column, space-between, center);
   width: 375px;
-  height: 1250px;
+  height: 1300px;
   padding: 300px 25px 0;
   background-color: $color-column-bg;
 

@@ -19,7 +19,12 @@ function ProjectSection() {
     <section className={'projects'}>
       <SectionTitle titleText={projectsSection.projectsSectionTitle[lang]} />
       {projectsSection.projectsSectionText[lang].map((projectBlockInfo) => {
-        return <ProjectBlock data={projectBlockInfo} />;
+        return (
+          <ProjectBlock
+            key={projectBlockInfo.project}
+            data={projectBlockInfo}
+          />
+        );
       })}
     </section>
   );
