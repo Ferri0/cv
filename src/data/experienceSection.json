@@ -3,48 +3,54 @@
   "experienceSectionText": {
     "en": [
       {
-        "company": "CALIFORNIA DESIGN INC. 1",
-        "position": "CREATIVE DIRECTOR",
-        "period": "Sept 2015 - Current",
-        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry."
+        "company": "RS SCHOOL REACT",
+        "position": "TRAINEE",
+        "period": "Feb 2021 - May 2021",
+        "description": "Complete 3 complex team projects on react/ts/redux with mentoring and one react interview"
       },
       {
-        "company": "CALIFORNIA DESIGN INC. 2",
-        "position": "CREATIVE DIRECTOR",
-        "period": "Sept 2015 - Current",
-        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry."
+        "company": "RS SCHOOL JS/FRONT-END",
+        "position": "TRAINEE",
+        "period": "Sept 2020 - Feb 2021",
+        "description": "Complete 10 complex projects, includes team development with mentoring and two js/frontend interviews"
       },
       {
-        "company": "CALIFORNIA DESIGN INC. 3",
-        "position": "CREATIVE DIRECTOR",
-        "period": "Sept 2015 - Current",
-        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry."
+        "company": "UNIMED MEDICAL CENTER",
+        "position": "TECHNICAL SUPPORT",
+        "period": "Dec 2019 - Aug 2020",
+        "description": "Support patients database, implement and support inner pet projects, support and improve clinic landing page"
       },
       {
-        "company": "CALIFORNIA DESIGN INC. 4",
-        "position": "CREATIVE DIRECTOR",
-        "period": "Sept 2015 - Current",
-        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry."
+        "company": "FUSION GROUP",
+        "position": "DENTIST",
+        "period": "June 2018 - May 2021",
+        "description": "Therapist-endodontist, practice with digital dentistry and corresponding soft, relative database (as user), 1C system"
       }
     ],
     "ru": [
       {
-        "company": "Компания 1",
-        "position": "CREATIVE DIRECTOR",
-        "period": "Sept 2015 - Current",
-        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry."
+        "company": "RS SCHOOL REACT",
+        "position": "TRAINEE",
+        "period": "Февраль 2021 - Май 2021",
+        "description": "Заверешено 3 командных проекта на react/ts/redux. Работа выполнена с ментором. Успешно пройдено интервью по react/redux"
       },
       {
-        "company": "CALIFORNIA DESIGN INC. 2",
-        "position": "CREATIVE DIRECTOR",
-        "period": "Sept 2015 - Current",
-        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry."
+        "company": "RS SCHOOL JS/FRONT-END",
+        "position": "TRAINEE",
+        "period": "Sept 2020 - Feb 2021",
+        "description": "Завершено 10 проектов, включая три командных. Работа выполнена с ментором. Успешно пройдено два интервью по js/frontend"
       },
       {
-        "company": "CALIFORNIA DESIGN INC. 3",
-        "position": "CREATIVE DIRECTOR",
-        "period": "Sept 2015 - Current",
-        "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry."
+        "company": "UNIMED MEDICAL CENTER",
+        "position": "TECHNICAL SUPPORT",
+        "period": "Dec 2019 - Aug 2020",
+        "description": "Поддержка базы данных пациентов, внедрение и поддержка внутренних инструментов кампании, поддержка и доработка веб приложения клиники"
+      },
+      {
+        "company": "FUSION GROUP",
+        "position": "DENTIST",
+        "period": "June 2018 - May 2021",
+        "description": "Терапевт-эндодонтист, работа с протоколами цифровой стоматологии и соответствующим софтом, использование реляционной базы данных, системы 1С"
       }
     ],
     "ua": [
