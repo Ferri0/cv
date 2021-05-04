@@ -1,0 +1,56 @@
+{
+  "eduSectionTitle": {"en": "Education", "ru": "Образование", "ua": "Освіта"},
+  "eduSectionText": {
+    "en": [
+      {
+        "institution": "CALIFORNIA DESIGN INC. 1",
+        "period": "Sept 2015 - Current",
+        "certificate": "link"
+      },
+      {
+        "institution": "CALIFORNIA DESIGN INC. 2",
+        "period": "Sept 2015 - Current",
+        "certificate": "link"
+      },
+      {
+        "institution": "CALIFORNIA DESIGN INC. 3",
+        "period": "Sept 2015 - Current",
+        "certificate": "link"
+      }
+    ],
+    "ru": [
+      {
+        "institution": "Компания 1",
+        "period": "Sept 2015 - Current",
+        "certificate": "link"
+      },
+      {
+        "institution": "CALIFORNIA DESIGN INC. 2",
+        "period": "Sept 2015 - Current",
+        "certificate": "link"
+      },
+      {
+        "institution": "CALIFORNIA DESIGN INC. 3",
+        "period": "Sept 2015 - Current",
+        "certificate": "link"
+      }
+    ],
+    "ua": [
+      {
+        "institution": "Перша компанія",
+        "period": "Sept 2015 - Current",
+        "certificate": "link"
+      },
+      {
+        "institution": "CALIFORNIA DESIGN INC. 2",
+        "period": "Sept 2015 - Current",
+        "certificate": "link"
+      },
+      {
+        "institution": "CALIFORNIA DESIGN INC. 3",
+        "period": "Sept 2015 - Current",
+        "certificate": "link"
+      }
+    ]
+  }
+}

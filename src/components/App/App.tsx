@@ -13,6 +13,7 @@ import {
 } from '../../store/langReducer';
 import ExperienceSection from '../ExperienceSection';
 import SkillSection from '../SkillSection';
+import EduSection from '../EduSection';
 
 function App() {
   const dispatch = useDispatch();
@@ -65,7 +66,7 @@ function App() {
       </SideColumn>
       <CentralColumn />
       <SideColumn textAlign={'left'}>
-        <ExperienceSection />
+        <EduSection />
         <SkillSection column={'right'} />
       </SideColumn>
     </div>
