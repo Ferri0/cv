@@ -9,6 +9,10 @@
   &--left-column {
     @include flex(row, flex-end, flex-start);
   }
+
+  &--right-column {
+    @include flex(row-reverse, flex-end, flex-start);
+  }
 }
 
 .skill-block__points {

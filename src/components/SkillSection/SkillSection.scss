@@ -8,4 +8,8 @@
   &--left {
     @include flex(column, flex-end, flex-start);
   }
+
+  &--right {
+    @include flex(column, flex-end, flex-start);
+  }
 }

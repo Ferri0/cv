@@ -65,7 +65,8 @@ function App() {
       </SideColumn>
       <CentralColumn />
       <SideColumn textAlign={'left'}>
-        <div />
+        <ExperienceSection />
+        <SkillSection column={'right'} />
       </SideColumn>
     </div>
   );

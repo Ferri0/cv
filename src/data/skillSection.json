@@ -32,7 +32,7 @@
     "skillSectionTitle": {
       "en": "Skills",
       "ru": "Навыки",
-      "ua": "Навичкі"
+      "ua": "Навички"
     },
     "skillSectionSkills": [
       {
@@ -50,6 +50,10 @@
       {
         "skill": "Webpack",
         "level": "4"
+      },
+      {
+        "skill": "CSS36",
+        "level": "5"
       }
     ]
   }
