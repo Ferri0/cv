@@ -1,0 +1,22 @@
+@import '../../scss/abstracts';
+
+.project-block {
+  width: 100%;
+  margin-top: $margin-separator-2;
+
+  & > * {
+    margin-top: $margin-separator-4;
+  }
+
+  &__project-title {
+    @extend %font-block-title;
+  }
+
+  &__link {
+    @extend %font-block-period;
+  }
+
+  &__description {
+    @extend %font-block-description;
+  }
+}

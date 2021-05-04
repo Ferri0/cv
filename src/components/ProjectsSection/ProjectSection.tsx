@@ -3,6 +3,7 @@ import './ProjectSection.scss';
 import {RootStateOrAny, useSelector} from 'react-redux';
 import SectionTitle from '../SectionTitle';
 import * as projectsSection from '../../data/projectsSection.json';
+import ProjectBlock from '../ProjectBlock';
 
 function ProjectSection() {
   // TODO implement theme change
@@ -17,10 +18,8 @@ function ProjectSection() {
   return (
     <section className={'projects'}>
       <SectionTitle titleText={projectsSection.projectsSectionTitle[lang]} />
-      {projectsSection.projectsSectionText[lang].map((projectBlockData) => {
-        return (
-          <div key={projectBlockData.project}>{projectBlockData.project}</div>
-        );
+      {projectsSection.projectsSectionText[lang].map((projectBlockInfo) => {
+        return <ProjectBlock data={projectBlockInfo} />;
       })}
     </section>
   );

@@ -7,19 +7,19 @@
   "projectsSectionText": {
     "en": [
       {
-        "project": "Project title 1",
-        "link": "Feb 2021 - May 2021",
-        "description": "description"
+        "project": "RS Lang",
+        "link": "link here",
+        "description": "Application for study english, includes authorization, textbook with 3000+ words, 4 games and statistics"
       },
       {
-        "project": "Project title 2",
-        "link": "Sept 2020 - Feb 2021",
-        "description": "description"
+        "project": "Travel App",
+        "link": "link here",
+        "description": "Application about choose country for travel, includes detailed info and rating about countries"
       },
       {
-        "project": "Project title 3",
-        "link": "Feb 2013 - June 2019",
-        "description": "Diploma"
+        "project": "Covid-19 dashboard",
+        "link": "link here",
+        "description": "Includes detailed statistics about covid-19 (map, graphs, tables), available a lot of filters, more then 100 countries stats"
       }
     ],
     "ru": [
