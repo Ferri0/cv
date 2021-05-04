@@ -2,29 +2,25 @@
 
 .experience-block {
   width: 100%;
-  margin-top: $margin-separator-3;
+  margin-top: $margin-separator-2;
 
   & > * {
     margin-top: $margin-separator-4;
   }
 
   &__company {
-    @extend %font-exp-company;
-    background-color: green;
+    @extend %font-block-title;
   }
 
   &__position {
-    @extend %font-exp-position;
-    background-color: blueviolet;
+    @extend %font-block-subtitle;
   }
 
   &__period {
-    @extend %font-exp-period;
-    background-color: aqua;
+    @extend %font-block-period;
   }
 
   &__description {
-    @extend %font-exp-description;
-    background-color: #7575e1;
+    @extend %font-block-description;
   }
 }

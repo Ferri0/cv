@@ -1,32 +1,35 @@
 //@extend %absolute-center;
 @import '../abstracts/constants';
 
-// Section title font settings
+// Font settings
 %font-section-title {
+  color: $color-section-title;
   font-weight: 400;
   font-size: $text-2;
   font-family: $font-header;
   text-transform: uppercase;
 }
-
-// Experience block font settings
-%font-exp-company {
+%font-block-title {
+  color: $color-block-title;
   font-weight: 400;
   font-size: $text-3;
   font-family: $font-header;
   text-transform: uppercase;
 }
-%font-exp-position {
+%font-block-subtitle {
+  color: $color-block-subtitle;
   font-weight: 400;
   font-size: $text-4;
   font-family: $font-header;
 }
-%font-exp-period {
-  font-weight: 400;
+%font-block-period {
+  color: $color-block-period;
+  font-weight: 500;
   font-size: $text-5;
   font-family: $font-regular;
 }
-%font-exp-description {
+%font-block-description {
+  color: $color-block-description;
   font-weight: 400;
   font-size: $text-5;
   font-family: $font-regular;

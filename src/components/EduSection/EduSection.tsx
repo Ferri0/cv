@@ -19,7 +19,7 @@ function EduSection() {
     <section className={'education'}>
       <SectionTitle titleText={eduSection.eduSectionTitle[lang]} />
       {eduSection.eduSectionText[lang].map((eduBlockData) => {
-        return <EduBlock data={eduBlockData} />;
+        return <EduBlock key={eduBlockData.institution} data={eduBlockData} />;
       })}
     </section>
   );
