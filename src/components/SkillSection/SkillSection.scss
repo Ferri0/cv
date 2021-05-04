@@ -1,0 +1,15 @@
+@import '../../scss/abstracts.scss';
+
+.skills {
+  width: 100%;
+  margin-top: $margin-separator-2;
+  margin-bottom: $margin-separator-2;
+
+  &--left {
+    @include flex(column, flex-end, flex-start);
+  }
+
+  &--right {
+    @include flex(column, flex-end, flex-start);
+  }
+}

@@ -1,8 +1,17 @@
 @import '../../scss/abstracts.scss';
 
 .side-column {
-  width: 300px;
-  height: 100vh;
+  @include flex(column, space-between, center);
+  width: 375px;
+  height: 1300px;
   padding: 300px 25px 0;
-  background-color: #a2dad5;
+  background-color: $color-column-bg;
+
+  &--align-right {
+    text-align: right;
+  }
+
+  &--align-left {
+    text-align: left;
+  }
 }

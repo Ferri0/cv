@@ -17,7 +17,7 @@ body {
 }
 
 #root {
-  @include flex(column, flex-start, center);
+  @include flex(column, center, center);
   min-height: 100vh;
   background-color: #e4e4e4;
 }
