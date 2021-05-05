@@ -1,0 +1,51 @@
+{
+  "langSectionTitle": {
+    "en": "Languages",
+    "ru": "Языки",
+    "ua": "Мови"
+  },
+  "langSectionText": {
+    "en": [
+      {
+        "language": "Russian",
+        "level": "Reading | Speaking - Native"
+      },
+      {
+        "language": "Ukrainian",
+        "level": "Reading | Speaking - Native"
+      },
+      {
+        "language": "English",
+        "level": "Reading - C1 | Speaking - A2/B1"
+      }
+    ],
+    "ru": [
+      {
+        "language": "Russian",
+        "level": "Reading | Speaking - Native"
+      },
+      {
+        "language": "Ukrainian",
+        "level": "Reading | Speaking - Native"
+      },
+      {
+        "language": "English",
+        "level": "Reading - C1 | Speaking - A2/B1"
+      }
+    ],
+    "ua": [
+      {
+        "language": "Russian",
+        "level": "Reading | Speaking - Native"
+      },
+      {
+        "language": "Ukrainian",
+        "level": "Reading | Speaking - Native"
+      },
+      {
+        "language": "English",
+        "level": "Reading - C1 | Speaking - A2/B1"
+      }
+    ]
+  }
+}
