@@ -10,7 +10,15 @@
   &__language {
     @extend %font-block-title;
   }
+  &__studying {
+    @extend %font-block-period;
+  }
   &__level {
-    @extend %font-block-subtitle;
+    @extend %font-block-description;
+  }
+  &__certificate {
+    display: block;
+    margin-top: $margin-separator-4;
+    @extend %font-block-description;
   }
 }

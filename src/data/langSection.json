@@ -8,43 +8,58 @@
     "en": [
       {
         "language": "Russian",
-        "level": "Reading - Native | Speaking - Native"
+        "studying": "Native language",
+        "level": "Reading - fluent | Speaking - fluent"
       },
       {
         "language": "Ukrainian",
-        "level": "Reading - Native | Speaking - Native"
+        "studying": "Native language",
+        "level": "Reading - fluent | Speaking - fluent"
       },
       {
         "language": "English",
-        "level": "Reading - C1 | Speaking - A2/B1"
+        "studying": "Coursera/ESOL courses",
+        "level": "Reading - C2 | Speaking - B2",
+        "certificateText": "EF SET Certificate C2 (76/100)",
+        "certificateUrl": "https://www.efset.org/cert/B2PmJR"
       }
     ],
     "ru": [
       {
         "language": "Russian",
+        "studying": "Native language",
         "level": "Reading | Speaking - Native"
       },
       {
         "language": "Ukrainian",
+        "studying": "Native language",
         "level": "Reading | Speaking - Native"
       },
       {
         "language": "English",
-        "level": "Reading - C1 | Speaking - A2/B1"
+        "studying": "Native language",
+        "level": "Reading - C1 | Speaking - A2/B1",
+        "certificateText": "certificate",
+        "certificateUrl": "https://www.efset.org/cert/B2PmJR"
       }
     ],
     "ua": [
       {
         "language": "Russian",
+        "studying": "Native language",
         "level": "Reading | Speaking - Native"
       },
       {
         "language": "Ukrainian",
+        "studying": "Native language",
         "level": "Reading | Speaking - Native"
       },
       {
         "language": "English",
-        "level": "Reading - C1 | Speaking - A2/B1"
+        "studying": "Native language",
+        "level": "Reading - C1 | Speaking - A2/B1",
+        "certificateText": "certificate",
+        "certificateUrl": "https://www.efset.org/cert/B2PmJR"
       }
     ]
   }
