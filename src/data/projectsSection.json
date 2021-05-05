@@ -8,56 +8,66 @@
     "en": [
       {
         "project": "RS Lang",
-        "link": "link here",
+        "linkText": "rslang.netlify.app",
+        "url": "https://rslang-team3-ferri0.netlify.app/",
         "description": "Application for study english, includes authorization, textbook with 3000+ words, 4 games and statistics"
       },
       {
         "project": "Travel App",
-        "link": "link here",
+        "linkText": "travel-app.herokuapp.com",
+        "url": "https://yaia-travel-app.herokuapp.com/#/",
         "description": "Application about choose country for travel, includes detailed info and rating about countries"
       },
       {
         "project": "Covid-19 dashboard",
-        "link": "link here",
+        "linkText": "covid-19-dashboard.github.io",
+        "url": "https://rolling-scopes-school.github.io/ferri0-JS2020Q3/covid-19-dashboard/",
         "description": "Includes detailed statistics about covid-19 (map, graphs, tables), available a lot of filters, more then 100 countries stats"
       },
       {
-        "project": "Covid-19 dashboard1",
-        "link": "link here",
+        "project": "Innovation",
+        "linkText": "innovation.herokuapp.com",
+        "url": "https://innovation-rs.herokuapp.com/#",
         "description": "Includes detailed statistics about covid-19 (map, graphs, tables), available a lot of filters, more then 100 countries stats"
       }
     ],
     "ru": [
       {
-        "project": "RS School REACT",
-        "link": "Февраль 2021 - Май 2021",
-        "description": "Сертификат"
+        "project": "RS Lang",
+        "linkText": "https://rslang-team3-ferri0.netlify.app/",
+        "url": "#",
+        "description": "Приложение для изучения иностранных слов, включающее электронный учебник с базой слов для изучения, мини-игры для их повторения, страницу статистики для отслеживания индивидуального прогресса."
       },
       {
         "project": "RS School JS/FRONT-END",
-        "link": "Сентябрь 2020 - Февраль 2021",
+        "linkText": "Сентябрь 2020 - Февраль 2021",
+        "url": "#",
         "description": "Сертификат"
       },
       {
         "project": "НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. А.А. БОГОМОЛЬЦА",
-        "link": "Февраль 2013 - Июнь 2019",
+        "linkText": "Февраль 2013 - Июнь 2019",
+        "url": "#",
         "description": "Диплом"
       }
     ],
     "ua": [
       {
         "project": "RS School REACT",
-        "link": "Лютий 2021 - Травень 2021",
+        "linkText": "Лютий 2021 - Травень 2021",
+        "url": "#",
         "description": "Сертифікат"
       },
       {
         "project": "RS School JS/FRONT-END",
-        "link": "Вересень 2020 - Лютий 2021",
+        "linkText": "Вересень 2020 - Лютий 2021",
+        "url": "#",
         "description": "Сертифікат"
       },
       {
         "project": "НАЦІОНАЛЬНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ ІМ. О.О. Богомольця",
-        "link": "Лютий 2013 - Червень 2019",
+        "linkText": "Лютий 2013 - Червень 2019",
+        "url": "#",
         "description": "Диплом"
       }
     ]
