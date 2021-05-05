@@ -1,6 +1,12 @@
 // example
 // background-color: $color-red;
 
+// layout height
+$layout-height: 1750px;
+
+// transparent color
+$color-transparent: rgba(0, 0, 0, 0);
+
 // font
 $font-header: 'Oswald', sans-serif;
 $font-regular: 'Roboto', sans-serif;
@@ -27,6 +33,7 @@ $margin-separator-3: 10px;
 $margin-separator-4: 5px;
 
 // layout colors
-$color-column-bg: #000b1d;
+$color-side-column-bg: #000b1d;
+$color-central-column-bg: #2e3d57;
 
 $color-separator: #606060;

@@ -1,7 +1,97 @@
 @import '../../scss/abstracts.scss';
 
 .central-column {
-  width: 325px;
-  height: 1100px;
-  background-color: aquamarine;
+  position: relative;
+  @include flex(column, flex-end, center);
+  width: 350px;
+  height: $layout-height;
+}
+
+.central-column__triangle {
+  width: 100%;
+  height: 100px;
+  border-top: 70px solid $color-transparent;
+  border-right: 50px solid $color-transparent;
+  border-bottom: 30px solid $color-central-column-bg;
+  border-left: 50px solid $color-transparent;
+}
+
+.central-column__block {
+  width: 100%;
+  height: 1560px;
+  background-color: $color-central-column-bg;
+}
+
+.hexagon {
+  position: absolute;
+  top: 20px;
+  width: 300px;
+  height: 173.21px;
+  margin: 86.6px 0;
+  background-image: url(http://csshexagon.com/img/meow.jpg);
+  background-position: center;
+  background-size: auto 323.3162px;
+  border-right: solid 10px #ffffff;
+  border-left: solid 10px #ffffff;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  left: 33.93px;
+  z-index: 1;
+  width: 212.13px;
+  height: 212.13px;
+  overflow: hidden;
+  background: inherit;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  position: absolute;
+  width: 280px;
+  height: 161.65807537309524px;
+  background: inherit;
+  -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-80.829px);
+  -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-80.829px);
+  transform: rotate(45deg) scaleY(1.7321) translateY(-80.829px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  content: '';
+}
+
+.hexTop {
+  top: -106.066px;
+  border-top: solid 14.1421px #ffffff;
+  border-right: solid 14.1421px #ffffff;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -106.066px;
+  border-bottom: solid 14.1421px #ffffff;
+  border-left: solid 14.1421px #ffffff;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  position: absolute;
+  top: 5.7735px;
+  left: 0;
+  z-index: 2;
+  width: 280px;
+  height: 161.6581px;
+  background: inherit;
+  content: '';
 }
