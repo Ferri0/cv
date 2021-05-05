@@ -20,6 +20,11 @@
         "project": "Covid-19 dashboard",
         "link": "link here",
         "description": "Includes detailed statistics about covid-19 (map, graphs, tables), available a lot of filters, more then 100 countries stats"
+      },
+      {
+        "project": "Covid-19 dashboard1",
+        "link": "link here",
+        "description": "Includes detailed statistics about covid-19 (map, graphs, tables), available a lot of filters, more then 100 countries stats"
       }
     ],
     "ru": [

@@ -19,7 +19,7 @@ function LangSection() {
     <section className={'languages'}>
       <SectionTitle titleText={langSection.langSectionTitle[lang]} />
       {langSection.langSectionText[lang].map((langBlockInfo) => {
-        return <LangBlock data={langBlockInfo} />;
+        return <LangBlock key={langBlockInfo.language} data={langBlockInfo} />;
       })}
     </section>
   );
