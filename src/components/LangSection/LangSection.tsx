@@ -3,6 +3,7 @@ import './LangSection.scss';
 import {RootStateOrAny, useSelector} from 'react-redux';
 import SectionTitle from '../SectionTitle';
 import * as langSection from '../../data/langSection.json';
+import LangBlock from '../LangBlock';
 
 function LangSection() {
   // TODO implement theme change
@@ -18,7 +19,7 @@ function LangSection() {
     <section className={'languages'}>
       <SectionTitle titleText={langSection.langSectionTitle[lang]} />
       {langSection.langSectionText[lang].map((langBlockInfo) => {
-        return <div>{langBlockInfo.language}</div>;
+        return <LangBlock data={langBlockInfo} />;
       })}
     </section>
   );

@@ -1,0 +1,16 @@
+@import '../../scss/abstracts';
+
+.language-block {
+  width: 100%;
+  margin-top: $margin-separator-2;
+
+  & > * {
+    margin-top: $margin-separator-4;
+  }
+  &__language {
+    @extend %font-block-title;
+  }
+  &__level {
+    @extend %font-block-subtitle;
+  }
+}
