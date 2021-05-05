@@ -5,51 +5,60 @@
       {
         "institution": "RS School REACT",
         "period": "Feb 2021 - May 2021",
-        "certificate": "Certificate"
+        "certificateText": "Certificate",
+        "certificateUrl": "#"
       },
       {
         "institution": "RS School JS/FRONT-END",
         "period": "Sept 2020 - Feb 2021",
-        "certificate": "Certificate"
+        "certificateText": "Certificate",
+        "certificateUrl": "https://app.rs.school/certificate/j22ytkwe"
       },
       {
         "institution": "BOGOMOLETS NATIONAL MEDICAL UNIVERSITY + internship",
         "period": "Feb 2013 - June 2019",
-        "certificate": "Diploma"
+        "certificateText": "Diploma",
+        "certificateUrl": "https://i.imgur.com/p8ybYBA.jpg"
       }
     ],
     "ru": [
       {
         "institution": "RS School REACT",
         "period": "Февраль 2021 - Май 2021",
-        "certificate": "Сертификат"
+        "certificateText": "Certificate",
+        "certificateUrl": "#"
       },
       {
         "institution": "RS School JS/FRONT-END",
         "period": "Сентябрь 2020 - Февраль 2021",
-        "certificate": "Сертификат"
+        "certificateText": "Certificate",
+        "certificateUrl": "https://app.rs.school/certificate/j22ytkwe"
       },
       {
         "institution": "НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. А.А. БОГОМОЛЬЦА",
         "period": "Февраль 2013 - Июнь 2019",
-        "certificate": "Диплом"
+        "certificateText": "Diploma",
+        "certificateUrl": "https://i.imgur.com/p8ybYBA.jpg"
       }
     ],
     "ua": [
       {
         "institution": "RS School REACT",
         "period": "Лютий 2021 - Травень 2021",
-        "certificate": "Сертифікат"
+        "certificateText": "Certificate",
+        "certificateUrl": "#"
       },
       {
         "institution": "RS School JS/FRONT-END",
         "period": "Вересень 2020 - Лютий 2021",
-        "certificate": "Сертифікат"
+        "certificateText": "Certificate",
+        "certificateUrl": "https://app.rs.school/certificate/j22ytkwe"
       },
       {
         "institution": "НАЦІОНАЛЬНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ ІМ. О.О. Богомольця",
         "period": "Лютий 2013 - Червень 2019",
-        "certificate": "Диплом"
+        "certificateText": "Diploma",
+        "certificateUrl": "https://i.imgur.com/p8ybYBA.jpg"
       }
     ]
   }

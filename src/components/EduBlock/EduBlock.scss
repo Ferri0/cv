@@ -17,6 +17,7 @@
   }
 
   &__certificate {
+    display: block;
     @extend %font-block-description;
   }
 }

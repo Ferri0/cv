@@ -5,7 +5,8 @@ type eduDataType = {
   data: {
     institution: string;
     period: string;
-    certificate: string;
+    certificateText: string;
+    certificateUrl: string;
   };
 };
 
@@ -14,7 +15,13 @@ function EduBlock({data}: eduDataType) {
     <div key={data.institution} className={'edu-block'}>
       <div className={'edu-block__institution'}>{data.institution}</div>
       <div className={'edu-block__period'}>{data.period}</div>
-      <div className={'edu-block__certificate'}>{data.certificate}</div>
+      <a
+        className={'edu-block__certificate'}
+        href={data.certificateUrl}
+        target={'_blank'}
+        rel={'noreferrer'}>
+        {data.certificateText}
+      </a>
     </div>
   );
 }
