@@ -1,9 +1,9 @@
 {
   "left": {
     "skillSectionTitle": {
-      "en": "Skills",
-      "ru": "Навыки",
-      "ua": "Навичкі"
+      "en": "Technologies",
+      "ru": "Технологии",
+      "ua": "Технології"
     },
     "skillSectionSkills": [
       {
@@ -30,9 +30,9 @@
   },
   "right": {
     "skillSectionTitle": {
-      "en": "Skills",
-      "ru": "Навыки",
-      "ua": "Навички"
+      "en": "Technologies",
+      "ru": "Технологии",
+      "ua": "Технології"
     },
     "skillSectionSkills": [
       {
