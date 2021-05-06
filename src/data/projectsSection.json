@@ -10,19 +10,19 @@
         "project": "RS Lang",
         "linkText": "rslang.netlify.app",
         "url": "https://rslang-team3-ferri0.netlify.app/",
-        "description": "App for learning english, contains 4 games for studying and repeating material, textbook with 3600 words, authorization and statistics for tracking personal progress, proper API service"
+        "description": "App for learning english, contains 4 games for repeating material, textbook with 3600 words, authorization, statistics, proper API service"
       },
       {
         "project": "Travel App",
         "linkText": "travel-app.herokuapp.com",
         "url": "https://yaia-travel-app.herokuapp.com/#/",
-        "description": "App for virtual travel across the world. Include video and photo overviews of each country, information about key points of interests, authorization and rating"
+        "description": "App for virtual travel across the world. Include video and photo overviews of each country, information about key points of interests"
       },
       {
         "project": "Covid-19 dashboard",
         "linkText": "covid-19-dashboard.github.io",
         "url": "https://rolling-scopes-school.github.io/ferri0-JS2020Q3/covid-19-dashboard/",
-        "description": "App with all available statistics about COVID-19 pandemic in 100+ countries around the world. Include detailed statistics with interactive maps, graphs and tables, flexible filters and search"
+        "description": "Dashboard about COVID-19 pandemic around the world. Include detailed statistics with interactive maps, graphs and tables"
       },
       {
         "project": "Innovation",

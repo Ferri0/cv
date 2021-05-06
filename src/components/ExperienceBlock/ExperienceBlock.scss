@@ -21,6 +21,7 @@
   }
 
   &__description {
+    line-height: 1.5;
     @extend %font-block-description;
   }
 }
