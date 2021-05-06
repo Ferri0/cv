@@ -6,7 +6,7 @@
         "institution": "RS School REACT",
         "period": "Feb 2021 - May 2021",
         "certificateText": "Certificate",
-        "certificateUrl": "#"
+        "certificateUrl": "https://app.rs.school/certificate/o6hsuite"
       },
       {
         "institution": "RS School JS/FRONT-END",
@@ -25,19 +25,19 @@
       {
         "institution": "RS School REACT",
         "period": "Февраль 2021 - Май 2021",
-        "certificateText": "Certificate",
-        "certificateUrl": "#"
+        "certificateText": "Сертификат",
+        "certificateUrl": "https://app.rs.school/certificate/o6hsuite"
       },
       {
         "institution": "RS School JS/FRONT-END",
         "period": "Сентябрь 2020 - Февраль 2021",
-        "certificateText": "Certificate",
+        "certificateText": "Сертификат",
         "certificateUrl": "https://app.rs.school/certificate/j22ytkwe"
       },
       {
         "institution": "НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. А.А. БОГОМОЛЬЦА",
         "period": "Февраль 2013 - Июнь 2019",
-        "certificateText": "Diploma",
+        "certificateText": "Диплом",
         "certificateUrl": "https://i.imgur.com/p8ybYBA.jpg"
       }
     ],
@@ -45,19 +45,19 @@
       {
         "institution": "RS School REACT",
         "period": "Лютий 2021 - Травень 2021",
-        "certificateText": "Certificate",
-        "certificateUrl": "#"
+        "certificateText": "Сертифікат",
+        "certificateUrl": "https://app.rs.school/certificate/o6hsuite"
       },
       {
         "institution": "RS School JS/FRONT-END",
         "period": "Вересень 2020 - Лютий 2021",
-        "certificateText": "Certificate",
+        "certificateText": "Сертифікат",
         "certificateUrl": "https://app.rs.school/certificate/j22ytkwe"
       },
       {
         "institution": "НАЦІОНАЛЬНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ ІМ. О.О. Богомольця",
         "period": "Лютий 2013 - Червень 2019",
-        "certificateText": "Diploma",
+        "certificateText": "Диплом",
         "certificateUrl": "https://i.imgur.com/p8ybYBA.jpg"
       }
     ]
