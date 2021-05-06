@@ -1,0 +1,30 @@
+@import '../../scss/abstracts.scss';
+
+.personal-info {
+  @include flex(column, space-around, center);
+  width: 100%;
+  height: 500px;
+  margin: 40px 0;
+  padding: 25px 0;
+  border-top: 4px dotted $color-separator-light;
+  border-bottom: 4px dotted $color-separator-light;
+
+  &__block {
+    @include flex(column, center, center);
+
+    &--title {
+      @extend %font-personal-info-title;
+    }
+    &--value {
+      margin-top: 8px;
+      @extend %font-block-title;
+    }
+    &--link {
+      margin-top: 8px;
+      @extend %font-block-title;
+      &:hover {
+        color: $color-block-subtitle;
+      }
+    }
+  }
+}

@@ -62,3 +62,17 @@
   font-family: $font-regular;
   line-height: 1.5;
 }
+%font-personal-info-title {
+  color: $color-block-subtitle;
+  font-weight: 400;
+  font-size: $text-3;
+  font-family: $font-header;
+  text-transform: uppercase;
+}
+%font-personal-info-value {
+  color: $color-block-title;
+  font-weight: 400;
+  font-size: $text-3;
+  font-family: $font-header;
+  text-transform: uppercase;
+}

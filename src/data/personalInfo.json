@@ -1,0 +1,83 @@
+{
+  "text": [
+    {
+      "en": {
+        "title": "DOB:",
+        "value": "30/11/1994"
+      },
+      "ru": {
+        "title": "Дата рождения:",
+        "value": "30/11/1994"
+      },
+      "ua": {
+        "title": "Дата народження:",
+        "value": "30/11/1994"
+      }
+    },
+    {
+      "en": {
+        "title": "Address:",
+        "value": "Ukraine | Kiev | 08162"
+      },
+      "ru": {
+        "title": "Адрес:",
+        "value": "Украина | Киев | 08162"
+      },
+      "ua": {
+        "title": "Адреса:",
+        "value": "Україна | Київ | 08162"
+      }
+    },
+    {
+      "en": {
+        "title": "Phone:",
+        "value": "(063)-537-53-40",
+        "url": "tel:+380635375340"
+      },
+      "ru": {
+        "title": "Телефон:",
+        "value": "(063)-537-53-40",
+        "url": "tel:+380635375340"
+      },
+      "ua": {
+        "title": "Телефон:",
+        "value": "(063)-537-53-40",
+        "url": "tel:+380635375340"
+      }
+    },
+    {
+      "en": {
+        "title": "Email:",
+        "value": "yabrasimov94@gmail.com",
+        "url": "mailto:yabrasimov94@gmail.com"
+      },
+      "ru": {
+        "title": "Email:",
+        "value": "yabrasimov94@gmail.com",
+        "url": "mailto:yabrasimov94@gmail.com"
+      },
+      "ua": {
+        "title": "Email:",
+        "value": "yabrasimov94@gmail.com",
+        "url": "mailto:yabrasimov94@gmail.com"
+      }
+    },
+    {
+      "en": {
+        "title": "Website:",
+        "value": "github.com/Ferri0",
+        "url": "https://github.com/Ferri0"
+      },
+      "ru": {
+        "title": "Сайт:",
+        "value": "github.com/Ferri0",
+        "url": "https://github.com/Ferri0"
+      },
+      "ua": {
+        "title": "Сайт:",
+        "value": "github.com/Ferri0",
+        "url": "https://github.com/Ferri0"
+      }
+    }
+  ]
+}
