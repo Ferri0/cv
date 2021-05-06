@@ -15,6 +15,7 @@ import SkillSection from '../SkillSection';
 import EduSection from '../EduSection';
 import ProjectSection from '../ProjectsSection';
 import LangSection from '../LangSection';
+import HeroSection from '../HeroSection';
 
 function App() {
   const dispatch = useDispatch();
@@ -66,7 +67,9 @@ function App() {
         <LangSection />
         <SkillSection column={'left'} />
       </SideColumn>
-      <CentralColumn />
+      <CentralColumn>
+        <HeroSection />
+      </CentralColumn>
       <SideColumn textAlign={'left'}>
         <ProjectSection />
         <EduSection />

@@ -1,0 +1,20 @@
+@import '../../scss/abstracts.scss';
+
+.hero-section {
+  width: 100%;
+  text-align: center;
+
+  &__name {
+    @extend %font-name-section-title;
+  }
+
+  &__position {
+    @extend %font-name-section-subtitle;
+    margin-top: $margin-separator-4;
+  }
+
+  &__intro {
+    margin-top: $margin-separator-2;
+    @extend %font-name-section-intro;
+  }
+}

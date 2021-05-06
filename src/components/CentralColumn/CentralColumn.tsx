@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import './CentralColumn.scss';
 
-function CentralColumn() {
+function CentralColumn({children}: {children: ReactNode}) {
   return (
     <div className={'central-column'}>
       <div className="hexagon">
@@ -9,7 +9,7 @@ function CentralColumn() {
         <div className="hexBottom" />
       </div>
       <div className={'central-column__triangle'} />
-      <div className={'central-column__block'} />
+      <div className={'central-column__block'}>{children}</div>
     </div>
   );
 }
