@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeroSection.scss';
 import {RootStateOrAny, useSelector} from 'react-redux';
+import * as heroSection from '../../data/heroSection.json';
 
 function HeroSection() {
   // TODO implement theme change
@@ -14,17 +15,14 @@ function HeroSection() {
 
   return (
     <section className={'hero-section'}>
-      <div className={'hero-section__name'}>Yaroslav Abrasimov</div>
+      <div className={'hero-section__name'}>
+        {heroSection.heroSectionTitle[lang]}
+      </div>
       <div className={'hero-section__position'}>
-        Junior frontend web developer
+        {heroSection.heroSectionSubtitle[lang]}
       </div>
       <div className={'hero-section__intro'}>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged.
+        {heroSection.heroSectionText[lang]}
       </div>
     </section>
   );
