@@ -19,42 +19,42 @@
     transition: all ease-out 0.2s;
 
     &--fb {
-      background-image: url('../../assets/icons/hexagon_empty_white.svg'),
-        url('../../assets/icons/facebook_light.svg');
+      background-image: url('../../assets/icons/contacts/hexagon_empty_white.svg'),
+        url('../../assets/icons/contacts/facebook_light.svg');
 
       &:hover {
-        background-image: url('../../assets/icons/hexagon_empty.svg'),
-          url('../../assets/icons/facebook.svg');
+        background-image: url('../../assets/icons/contacts/hexagon_empty.svg'),
+          url('../../assets/icons/contacts/facebook.svg');
       }
     }
 
     &--linkedin {
-      background-image: url('../../assets/icons/hexagon_empty_white.svg'),
-        url('../../assets/icons/linkedin_light.svg');
+      background-image: url('../../assets/icons/contacts/hexagon_empty_white.svg'),
+        url('../../assets/icons/contacts/linkedin_light.svg');
 
       &:hover {
-        background-image: url('../../assets/icons/hexagon_empty.svg'),
-          url('../../assets/icons/linkedin.svg');
+        background-image: url('../../assets/icons/contacts/hexagon_empty.svg'),
+          url('../../assets/icons/contacts/linkedin.svg');
       }
     }
 
     &--skype {
-      background-image: url('../../assets/icons/hexagon_empty_white.svg'),
-        url('../../assets/icons/skype_light.svg');
+      background-image: url('../../assets/icons/contacts/hexagon_empty_white.svg'),
+        url('../../assets/icons/contacts/skype_light.svg');
 
       &:hover {
-        background-image: url('../../assets/icons/hexagon_empty.svg'),
-          url('../../assets/icons/skype.svg');
+        background-image: url('../../assets/icons/contacts/hexagon_empty.svg'),
+          url('../../assets/icons/contacts/skype.svg');
       }
     }
 
     &--telegram {
-      background-image: url('../../assets/icons/hexagon_empty_white.svg'),
-        url('../../assets/icons/telegram_light.svg');
+      background-image: url('../../assets/icons/contacts/hexagon_empty_white.svg'),
+        url('../../assets/icons/contacts/telegram_light.svg');
 
       &:hover {
-        background-image: url('../../assets/icons/hexagon_empty.svg'),
-          url('../../assets/icons/telegram.svg');
+        background-image: url('../../assets/icons/contacts/hexagon_empty.svg'),
+          url('../../assets/icons/contacts/telegram.svg');
       }
     }
   }
