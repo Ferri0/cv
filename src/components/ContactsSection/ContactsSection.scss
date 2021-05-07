@@ -6,13 +6,41 @@
 
   &__row {
     width: 100%;
-    margin-top: 35px;
+    margin-top: 30px;
     @include flex(row, space-around, flex-start);
   }
 
   &__icon {
-    width: 70px;
-    height: 70px;
-    background-color: red;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all ease-out 0.2s;
+
+    &:hover {
+      filter: invert(0.26) sepia(1) saturate(4) hue-rotate(169.2deg)
+        brightness(0.89);
+    }
+
+    &--fb {
+      background-image: url('../../assets/icons/hexagon_empty_white.svg'),
+        url('../../assets/icons/facebook.svg');
+    }
+
+    &--linkedin {
+      background-image: url('../../assets/icons/hexagon_empty_white.svg'),
+        url('../../assets/icons/linkedin.svg');
+    }
+
+    &--skype {
+      background-image: url('../../assets/icons/hexagon_empty_white.svg'),
+        url('../../assets/icons/skype.svg');
+    }
+
+    &--telegram {
+      background-image: url('../../assets/icons/hexagon_empty_white.svg'),
+        url('../../assets/icons/telegram.svg');
+    }
   }
 }

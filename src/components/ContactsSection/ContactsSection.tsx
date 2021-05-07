@@ -15,14 +15,14 @@ function ContactsSection() {
         <a
           href={'https://github.com/Ferri0/completed-projects'}
           target={'_blank'}
-          className={'contacts-section__icon'}
+          className={'contacts-section__icon contacts-section__icon--linkedin'}
           rel="noreferrer"
         />
         {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
         <a
-          href={'https://github.com/Ferri0/completed-projects'}
+          href={'https://www.facebook.com/profile.php?id=100021945720608'}
           target={'_blank'}
-          className={'contacts-section__icon'}
+          className={'contacts-section__icon contacts-section__icon--fb'}
           rel="noreferrer"
         />
       </div>
@@ -31,14 +31,14 @@ function ContactsSection() {
         <a
           href={'https://github.com/Ferri0/completed-projects'}
           target={'_blank'}
-          className={'contacts-section__icon'}
+          className={'contacts-section__icon contacts-section__icon--skype'}
           rel="noreferrer"
         />
         {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
         <a
           href={'https://github.com/Ferri0/completed-projects'}
           target={'_blank'}
-          className={'contacts-section__icon'}
+          className={'contacts-section__icon contacts-section__icon--telegram'}
           rel="noreferrer"
         />
       </div>
