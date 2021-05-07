@@ -13,7 +13,7 @@ function ContactsSection() {
       <div className={'contacts-section__row'}>
         {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
         <a
-          href={'https://github.com/Ferri0/completed-projects'}
+          href={'https://www.linkedin.com/in/yaroslav-abrasimov-3aa422210/'}
           target={'_blank'}
           className={'contacts-section__icon contacts-section__icon--linkedin'}
           rel="noreferrer"
@@ -29,14 +29,14 @@ function ContactsSection() {
       <div className={'contacts-section__row'}>
         {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
         <a
-          href={'https://github.com/Ferri0/completed-projects'}
+          href={'https://join.skype.com/invite/nVgndFEKAqH6'}
           target={'_blank'}
           className={'contacts-section__icon contacts-section__icon--skype'}
           rel="noreferrer"
         />
         {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
         <a
-          href={'https://github.com/Ferri0/completed-projects'}
+          href={'https://t.me/yabrasimov'}
           target={'_blank'}
           className={'contacts-section__icon contacts-section__icon--telegram'}
           rel="noreferrer"

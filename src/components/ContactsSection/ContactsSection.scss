@@ -18,29 +18,44 @@
     background-size: contain;
     transition: all ease-out 0.2s;
 
-    &:hover {
-      filter: invert(0.26) sepia(1) saturate(4) hue-rotate(169.2deg)
-        brightness(0.89);
-    }
-
     &--fb {
       background-image: url('../../assets/icons/hexagon_empty_white.svg'),
-        url('../../assets/icons/facebook.svg');
+        url('../../assets/icons/facebook_light.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/hexagon_empty.svg'),
+          url('../../assets/icons/facebook.svg');
+      }
     }
 
     &--linkedin {
       background-image: url('../../assets/icons/hexagon_empty_white.svg'),
-        url('../../assets/icons/linkedin.svg');
+        url('../../assets/icons/linkedin_light.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/hexagon_empty.svg'),
+          url('../../assets/icons/linkedin.svg');
+      }
     }
 
     &--skype {
       background-image: url('../../assets/icons/hexagon_empty_white.svg'),
-        url('../../assets/icons/skype.svg');
+        url('../../assets/icons/skype_light.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/hexagon_empty.svg'),
+          url('../../assets/icons/skype.svg');
+      }
     }
 
     &--telegram {
       background-image: url('../../assets/icons/hexagon_empty_white.svg'),
-        url('../../assets/icons/telegram.svg');
+        url('../../assets/icons/telegram_light.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/hexagon_empty.svg'),
+          url('../../assets/icons/telegram.svg');
+      }
     }
   }
 }
