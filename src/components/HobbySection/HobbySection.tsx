@@ -2,6 +2,7 @@ import React from 'react';
 import './HobbySection.scss';
 import {RootStateOrAny, useSelector} from 'react-redux';
 import testImage from '../../assets/IMG_2994_1000x1000.png';
+import * as hobbyText from '../../data/hobbySection.json';
 
 function HobbySection() {
   // TODO implement theme change
@@ -15,7 +16,9 @@ function HobbySection() {
 
   return (
     <section className={'hobby-section'}>
-      <div className={'hobby-section__title'}>Hobbies</div>
+      <div className={'hobby-section__title'}>
+        {hobbyText.hobbySectionTitle[lang]}
+      </div>
       <div className={'hobby-section__icons-block'}>
         <img src={testImage} alt="hobby 1" className={'hobby-section__icon'} />
         <img src={testImage} alt="hobby 2" className={'hobby-section__icon'} />
