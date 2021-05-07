@@ -1,6 +1,7 @@
 @import '../../scss/abstracts.scss';
 
 .app {
+  position: relative;
   background-color: $color-side-column-bg;
   @include flex(row, flex-start, center);
 }

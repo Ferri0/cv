@@ -19,6 +19,7 @@ import HeroSection from '../HeroSection';
 import PersonalInfo from '../PersonalInfo';
 import HobbySection from '../HobbySection';
 import ContactsSection from '../ContactsSection';
+import LangSwitch from '../LangSwitch';
 
 function App() {
   const dispatch = useDispatch();
@@ -32,7 +33,7 @@ function App() {
 
   return (
     <div className={'app'}>
-      <div style={{position: 'absolute', top: '0', fontSize: 15}}>
+      <div style={{position: 'absolute', top: '0', right: '0', fontSize: 15}}>
         <div
           style={{
             display: 'flex',
@@ -65,6 +66,7 @@ function App() {
         </div>
       </div>
 
+      <LangSwitch />
       <SideColumn textAlign={'right'}>
         <ExperienceSection />
         <LangSection />

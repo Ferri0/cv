@@ -1,0 +1,101 @@
+@import '../../scss/abstracts.scss';
+
+#lang-switch {
+  @include flex(row, space-between, center);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 210px;
+
+  & input {
+    display: none;
+  }
+
+  & label {
+    transition: all ease-out 0.2s;
+  }
+}
+
+.en-btn-label {
+  display: block;
+  width: 60px;
+  height: 60px;
+
+  &--active {
+    background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
+      url('../../assets/icons/lang/en_selected.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &--inactive {
+    background-image: url('../../assets/icons/lang/hexagon_empty_white.svg'),
+      url('../../assets/icons/lang/en.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &:hover {
+      background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
+        url('../../assets/icons/lang/en_selected.svg');
+      cursor: pointer;
+    }
+  }
+}
+
+.ru-btn-label {
+  display: block;
+  width: 60px;
+  height: 60px;
+
+  &--active {
+    background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
+      url('../../assets/icons/lang/ru_selected.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &--inactive {
+    background-image: url('../../assets/icons/lang/hexagon_empty_white.svg'),
+      url('../../assets/icons/lang/ru.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &:hover {
+      background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
+        url('../../assets/icons/lang/ru_selected.svg');
+      cursor: pointer;
+    }
+  }
+}
+
+.ua-btn-label {
+  display: block;
+  width: 60px;
+  height: 60px;
+
+  &--active {
+    background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
+      url('../../assets/icons/lang/ua_selected.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &--inactive {
+    background-image: url('../../assets/icons/lang/hexagon_empty_white.svg'),
+      url('../../assets/icons/lang/ua.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &:hover {
+      background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
+        url('../../assets/icons/lang/ua_selected.svg');
+      cursor: pointer;
+    }
+  }
+}
