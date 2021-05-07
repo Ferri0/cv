@@ -18,6 +18,7 @@ import LangSection from '../LangSection';
 import HeroSection from '../HeroSection';
 import PersonalInfo from '../PersonalInfo';
 import HobbySection from '../HobbySection';
+import ContactsSection from '../ContactsSection';
 
 function App() {
   const dispatch = useDispatch();
@@ -73,6 +74,7 @@ function App() {
         <HeroSection />
         <PersonalInfo />
         <HobbySection />
+        <ContactsSection />
       </CentralColumn>
       <SideColumn textAlign={'left'}>
         <ProjectSection />
