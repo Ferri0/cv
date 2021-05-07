@@ -14,7 +14,7 @@
     @include flex(row, flex-end, flex-start);
 
     & .skill-block__points {
-      margin-left: 25px;
+      margin-left: 15px;
     }
   }
 
@@ -22,7 +22,7 @@
     @include flex(row-reverse, flex-end, flex-start);
 
     & .skill-block__points {
-      margin-right: 25px;
+      margin-right: 15px;
     }
   }
 }
@@ -32,9 +32,15 @@
   height: 20px;
 
   &--filled {
-    background-color: $color-block-title;
+    background-image: url('../../assets/icons/hexagon_filled.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
   &--empty {
-    border: 1px solid $color-block-title;
+    background-image: url('../../assets/icons/hexagon_empty.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
 }
