@@ -22,7 +22,13 @@ function EduSection() {
         theme={theme}
       />
       {eduSection.eduSectionText[lang].map((eduBlockData) => {
-        return <EduBlock key={eduBlockData.institution} data={eduBlockData} />;
+        return (
+          <EduBlock
+            key={eduBlockData.institution}
+            data={eduBlockData}
+            theme={theme}
+          />
+        );
       })}
     </section>
   );
