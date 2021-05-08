@@ -15,7 +15,10 @@ function CentralColumn({children}: {children: ReactNode}) {
       <div
         className={`central-column__triangle central-column__triangle--${theme}`}
       />
-      <div className={`central-column__block central-column__block--${theme}`}>
+      <div
+        // @ts-ignore
+        xyz="fade"
+        className={`central-column__block central-column__block--${theme}`}>
         {children}
       </div>
     </div>

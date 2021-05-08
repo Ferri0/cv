@@ -36,7 +36,7 @@ function ContactsSection() {
   preloadImgs(imgUrls);
 
   return (
-    <section className={'contacts-section'}>
+    <section className={'xyz-in contacts-section'}>
       <div className={'contacts-section__row'}>
         {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
         <a
