@@ -22,7 +22,8 @@ function HobbySection() {
       <div className={`hobby-section__title hobby-section__title--${theme}`}>
         {hobbyText.hobbySectionTitle[lang]}
       </div>
-      <div className={'hobby-section__icons-block'}>
+      <div
+        className={`hobby-section__icons-block hobby-section__icons-block--${theme}`}>
         <img src={hobby1} alt="hobby 1" className={'hobby-section__icon'} />
         <img src={hobby2} alt="hobby 2" className={'hobby-section__icon'} />
         <img src={hobby3} alt="hobby 3" className={'hobby-section__icon'} />

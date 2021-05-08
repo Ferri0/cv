@@ -5,15 +5,16 @@
   @include flex(column, center, center);
   width: 100%;
   height: 50px;
-  border-top: 4px dotted $color-separator;
-  border-bottom: 4px dotted $color-separator;
 
   &--dark {
     color: $color-section-title;
+    border-top: 4px dotted $color-separator;
+    border-bottom: 4px dotted $color-separator;
   }
 
   &--light {
     color: $color-section-title-light;
-    font-weight: 700;
+    border-top: 4px dotted $color-separator-light;
+    border-bottom: 4px dotted $color-separator-light;
   }
 }

@@ -14,7 +14,7 @@ function PersonalInfo() {
   );
 
   return (
-    <section className={'personal-info'}>
+    <section className={`personal-info personal-info--${theme}`}>
       {personalInfo.text.map((blockInfo) => {
         return (
           <div key={blockInfo.en.title} className={'personal-info__block'}>
