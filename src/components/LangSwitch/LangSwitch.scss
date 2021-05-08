@@ -27,7 +27,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(1.1);
   }
 
   &--active-light {
@@ -36,7 +35,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(1.1);
   }
 
   &--inactive-dark {
@@ -49,7 +47,7 @@
     &:hover {
       background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
         url('../../assets/icons/lang/en_selected.svg');
-      transform: scale(1.1);
+
       cursor: pointer;
     }
   }
@@ -64,7 +62,7 @@
     &:hover {
       background-image: url('../../assets/icons/lang/light-theme/hexagon_empty.svg'),
         url('../../assets/icons/lang/light-theme/en_selected.svg');
-      transform: scale(1.1);
+
       cursor: pointer;
     }
   }
@@ -81,7 +79,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(1.1);
   }
 
   &--active-light {
@@ -90,7 +87,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(1.1);
   }
 
   &--inactive-dark {
@@ -103,7 +99,7 @@
     &:hover {
       background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
         url('../../assets/icons/lang/ru_selected.svg');
-      transform: scale(1.1);
+
       cursor: pointer;
     }
   }
@@ -118,7 +114,7 @@
     &:hover {
       background-image: url('../../assets/icons/lang/light-theme/hexagon_empty.svg'),
         url('../../assets/icons/lang/light-theme/ru_selected.svg');
-      transform: scale(1.1);
+
       cursor: pointer;
     }
   }
@@ -135,7 +131,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(1.1);
   }
 
   &--active-light {
@@ -144,7 +139,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    transform: scale(1.1);
   }
 
   &--inactive-dark {
@@ -157,7 +151,7 @@
     &:hover {
       background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
         url('../../assets/icons/lang/ua_selected.svg');
-      transform: scale(1.1);
+
       cursor: pointer;
     }
   }
@@ -172,7 +166,7 @@
     &:hover {
       background-image: url('../../assets/icons/lang/light-theme/hexagon_empty.svg'),
         url('../../assets/icons/lang/light-theme/ua_selected.svg');
-      transform: scale(1.1);
+
       cursor: pointer;
     }
   }
