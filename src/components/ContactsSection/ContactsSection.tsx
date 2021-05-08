@@ -28,7 +28,6 @@ const imgUrls = [
 ];
 
 function ContactsSection() {
-  // TODO implement theme change
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
   );

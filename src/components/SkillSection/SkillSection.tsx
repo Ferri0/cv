@@ -11,11 +11,9 @@ type skillSectionProps = {
 
 // eslint-disable - disabled in case of bug with prettier/prettier rules bug
 function SkillSection({column}: skillSectionProps) {
-  // TODO implement theme change
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
   );
-  // TODO implement other languages
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );

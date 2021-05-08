@@ -1,10 +1,9 @@
 import React from 'react';
 import './SectionTitle.scss';
 
-// TODO Remove ? on theme
 type sectionTitleProps = {
   titleText: string;
-  theme?: string;
+  theme: string;
 };
 
 function SectionTitle({titleText, theme}: sectionTitleProps) {

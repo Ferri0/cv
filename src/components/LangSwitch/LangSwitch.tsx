@@ -29,7 +29,6 @@ const imgUrls = [
 
 function LangSwitch() {
   const dispatch = useDispatch();
-  // TODO
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
   );

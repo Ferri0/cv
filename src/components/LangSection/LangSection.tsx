@@ -6,11 +6,9 @@ import * as langSection from '../../data/langSection.json';
 import LangBlock from '../LangBlock';
 
 function LangSection() {
-  // TODO implement theme change
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
   );
-  // TODO implement other languages
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );

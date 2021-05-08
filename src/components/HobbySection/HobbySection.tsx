@@ -12,11 +12,9 @@ import hobby4_light from '../../assets/icons/hobbies/steering-wheel_light.svg';
 import * as hobbyText from '../../data/hobbySection.json';
 
 function HobbySection() {
-  // TODO implement theme change
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
   );
-  // TODO implement other languages
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );

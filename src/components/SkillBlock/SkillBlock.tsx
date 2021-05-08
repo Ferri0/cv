@@ -1,6 +1,5 @@
 import React from 'react';
 import './SkillBlock.scss';
-import {RootStateOrAny, useSelector} from 'react-redux';
 
 type skillBlockProps = {
   data: {

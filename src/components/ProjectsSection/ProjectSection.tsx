@@ -6,11 +6,9 @@ import * as projectsSection from '../../data/projectsSection.json';
 import ProjectBlock from '../ProjectBlock';
 
 function ProjectSection() {
-  // TODO implement theme change
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
   );
-  // TODO implement other languages
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );

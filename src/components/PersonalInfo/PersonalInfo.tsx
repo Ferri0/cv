@@ -4,11 +4,9 @@ import {RootStateOrAny, useSelector} from 'react-redux';
 import * as personalInfo from '../../data/personalInfo.json';
 
 function PersonalInfo() {
-  // TODO implement theme change
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
   );
-  // TODO implement other languages
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );
