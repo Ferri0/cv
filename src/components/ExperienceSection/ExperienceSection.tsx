@@ -27,6 +27,7 @@ function ExperienceSection() {
             <ExperienceBlock
               key={experienceBlockData.company}
               data={experienceBlockData}
+              theme={theme}
             />
           );
         }

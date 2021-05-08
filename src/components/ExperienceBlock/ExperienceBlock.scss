@@ -10,18 +10,54 @@
 
   &__company {
     @extend %font-block-title;
+
+    &--dark {
+      color: $color-block-title;
+    }
+
+    &--light {
+      color: $color-block-title-light;
+      font-weight: 700;
+    }
   }
 
   &__position {
     @extend %font-block-subtitle;
+
+    &--dark {
+      color: $color-block-subtitle;
+    }
+
+    &--light {
+      color: $color-block-subtitle-light;
+      font-weight: 700;
+    }
   }
 
   &__period {
     @extend %font-block-period;
+
+    &--dark {
+      color: $color-block-period;
+    }
+
+    &--light {
+      color: $color-block-period-light;
+      font-weight: 700;
+    }
   }
 
   &__description {
     line-height: 1.5;
     @extend %font-block-description;
+
+    &--dark {
+      color: $color-block-description;
+    }
+
+    &--light {
+      color: $color-block-description-light;
+      font-weight: 700;
+    }
   }
 }
