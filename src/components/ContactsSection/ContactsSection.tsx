@@ -1,14 +1,28 @@
 import React from 'react';
 import './ContactsSection.scss';
-import {RootStateOrAny, useSelector} from 'react-redux';
+// import {RootStateOrAny, useSelector} from 'react-redux';
+import {preloadImgs} from '../../utils/preloadImgs';
+
+const imgUrls = [
+  '../../assets/icons/contacts/facebook.svg',
+  '../../assets/icons/contacts/facebook_light.svg',
+  '../../assets/icons/contacts/linkedin.svg',
+  '../../assets/icons/contacts/linkedin_light.svg',
+  '../../assets/icons/contacts/skype.svg',
+  '../../assets/icons/contacts/skype_light.svg',
+  '../../assets/icons/contacts/telegram.svg',
+  '../../assets/icons/contacts/telegram_light.svg',
+  '../../assets/icons/contacts/hexagon_empty.svg',
+  '../../assets/icons/contacts/hexagon_empty_white.svg',
+];
 
 function ContactsSection() {
   // TODO implement theme change
-  const theme = useSelector(
-    (state: RootStateOrAny) => state.themeReducer.theme
-  );
-  console.log('theme from ContactsSection');
-  console.log(theme);
+  // const theme = useSelector(
+  //   (state: RootStateOrAny) => state.themeReducer.theme
+  // );
+
+  preloadImgs(imgUrls);
 
   return (
     <section className={'contacts-section'}>

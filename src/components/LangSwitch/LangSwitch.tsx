@@ -1,4 +1,4 @@
-import React, {useEffect, useMemo} from 'react';
+import React, {useEffect} from 'react';
 import './LangSwitch.scss';
 import {RootStateOrAny, useDispatch, useSelector} from 'react-redux';
 import {
@@ -6,6 +6,7 @@ import {
   setRuLangAction,
   setUaLangAction,
 } from '../../store/langReducer';
+import {preloadImgs} from '../../utils/preloadImgs';
 
 const imgUrls = [
   '../../assets/icons/lang/hexagon_empty.svg',
@@ -29,10 +30,7 @@ function LangSwitch() {
   );
 
   useEffect(() => {
-    imgUrls.forEach((imgUrl) => {
-      const img = new Image();
-      img.src = imgUrl;
-    });
+    preloadImgs(imgUrls);
   }, []);
 
   return (
