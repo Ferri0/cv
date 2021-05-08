@@ -6,23 +6,25 @@ import * as projectsSection from '../../data/projectsSection.json';
 import ProjectBlock from '../ProjectBlock';
 
 function ProjectSection() {
-  // TODO implement theme change
-  // const theme = useSelector(
-  //   (state: RootStateOrAny) => state.themeReducer.theme
-  // );
-  // TODO implement other languages
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );
 
   return (
     <section className={'projects'}>
-      <SectionTitle titleText={projectsSection.projectsSectionTitle[lang]} />
+      <SectionTitle
+        theme={theme}
+        titleText={projectsSection.projectsSectionTitle[lang]}
+      />
       {projectsSection.projectsSectionText[lang].map((projectBlockInfo) => {
         return (
           <ProjectBlock
             key={projectBlockInfo.project}
             data={projectBlockInfo}
+            theme={theme}
           />
         );
       })}

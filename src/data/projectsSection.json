@@ -10,65 +10,77 @@
         "project": "RS Lang",
         "linkText": "rslang.netlify.app",
         "url": "https://rslang-team3-ferri0.netlify.app/",
-        "description": "Application for study english, includes authorization, textbook with 3000+ words, 4 games and statistics"
+        "description": "App for learning English, contains 4 games for repeating material, textbook with 3600 words, authorization, statistics, proper API service"
       },
       {
         "project": "Travel App",
         "linkText": "travel-app.herokuapp.com",
         "url": "https://yaia-travel-app.herokuapp.com/#/",
-        "description": "Application about choose country for travel, includes detailed info and rating about countries"
+        "description": "App for virtual travel across the world. Include video and photo overviews of each country, information about key points of interests"
       },
       {
         "project": "Covid-19 dashboard",
         "linkText": "covid-19-dashboard.github.io",
-        "url": "https://rolling-scopes-school.github.io/ferri0-JS2020Q3/covid-19-dashboard/",
-        "description": "Includes detailed statistics about covid-19 (map, graphs, tables), available a lot of filters, more then 100 countries stats"
+        "url": "https://covid-19-dashboard-ferri0.netlify.app",
+        "description": "Dashboard about COVID-19 pandemic around the world. Include detailed statistics with interactive maps, graphs and tables"
       },
       {
         "project": "Innovation",
         "linkText": "innovation.herokuapp.com",
         "url": "https://innovation-rs.herokuapp.com/#",
-        "description": "Includes detailed statistics about covid-19 (map, graphs, tables), available a lot of filters, more then 100 countries stats"
+        "description": "Innovation board game realization. Available hot-seat mode for 2-4 players, released all complex mechanics and win conditions, special tutorial mode"
       }
     ],
     "ru": [
       {
-        "project": "RS Lang",
-        "linkText": "https://rslang-team3-ferri0.netlify.app/",
-        "url": "#",
-        "description": "Приложение для изучения иностранных слов, включающее электронный учебник с базой слов для изучения, мини-игры для их повторения, страницу статистики для отслеживания индивидуального прогресса."
+        "project": "RS Lang ",
+        "linkText": "rslang.netlify.app",
+        "url": "https://rslang-team3-ferri0.netlify.app/",
+        "description": "Приложение для изучения английского, включающее электронный учебник, мини-игры, авторизацию, статистику, API сервис"
       },
       {
-        "project": "RS School JS/FRONT-END",
-        "linkText": "Сентябрь 2020 - Февраль 2021",
-        "url": "#",
-        "description": "Сертификат"
+        "project": "Travel App ",
+        "linkText": "travel-app.herokuapp.com",
+        "url": "https://yaia-travel-app.herokuapp.com/#/",
+        "description": "Приложение для виртуальных путешествий. Включает обзоры стран, информацию про основные достопримечательности, рейтинг"
       },
       {
-        "project": "НАЦИОНАЛЬНЫЙ МЕДИЦИНСКИЙ УНИВЕРСИТЕТ ИМ. А.А. БОГОМОЛЬЦА",
-        "linkText": "Февраль 2013 - Июнь 2019",
-        "url": "#",
-        "description": "Диплом"
+        "project": "Covid-19 dashboard ",
+        "linkText": "covid-19-dashboard.github.io",
+        "url": "https://covid-19-dashboard-ferri0.netlify.app",
+        "description": "Приложение для отслеживания статистики COVID-19. Информация в виде таблиц, графика и интерактивной карты"
+      },
+      {
+        "project": "Innovation ",
+        "linkText": "innovation.herokuapp.com",
+        "url": "https://innovation-rs.herokuapp.com/#",
+        "description": "Авторская реализация настольной игры Инновация. Доступна игра в режиме хот-сит от 2 до 4 игроков, реализованы все игровые механики, режим обучения"
       }
     ],
     "ua": [
       {
-        "project": "RS School REACT",
-        "linkText": "Лютий 2021 - Травень 2021",
-        "url": "#",
-        "description": "Сертифікат"
+        "project": "RS Lang  ",
+        "linkText": "rslang.netlify.app",
+        "url": "https://rslang-team3-ferri0.netlify.app/",
+        "description": "Додаток для вивчення англійського, що включає електронний підручник, міні-ігри, авторизацію, статистику, API сервіс"
       },
       {
-        "project": "RS School JS/FRONT-END",
-        "linkText": "Вересень 2020 - Лютий 2021",
-        "url": "#",
-        "description": "Сертифікат"
+        "project": "Travel App  ",
+        "linkText": "travel-app.herokuapp.com",
+        "url": "https://yaia-travel-app.herokuapp.com/#/",
+        "description": "Додаток для віртуальних подорожей, що включає відео-огляди країн, інформацію про основні пам'ятки, рейтинг"
       },
       {
-        "project": "НАЦІОНАЛЬНИЙ МЕДИЧНИЙ УНІВЕРСИТЕТ ІМ. О.О. Богомольця",
-        "linkText": "Лютий 2013 - Червень 2019",
-        "url": "#",
-        "description": "Диплом"
+        "project": "Covid-19 dashboard  ",
+        "linkText": "covid-19-dashboard.github.io",
+        "url": "https://covid-19-dashboard-ferri0.netlify.app",
+        "description": "Додаток для отримання статистики COVID-19. Інформація у вигляді таблиць, графіку та інтерактивної карти"
+      },
+      {
+        "project": "Innovation  ",
+        "linkText": "innovation.herokuapp.com",
+        "url": "https://innovation-rs.herokuapp.com/#",
+        "description": "Авторська реалізація настільної гри Інновація. Доступна гра в режимі хот-сіт від 2 до 4 гравців, реалізовані всі ігрові механіки, режим навчання"
       }
     ]
   }

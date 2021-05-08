@@ -18,11 +18,21 @@ body {
 
 #root {
   @include flex(column, center, center);
-  min-height: 100vh;
-  background-color: #e4e4e4;
+}
+
+.light-theme {
+  background-color: #807f7f;
+}
+
+.dark-theme {
+  background-color: #d7d7d7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a:hover {
+  color: #66addc;
 }

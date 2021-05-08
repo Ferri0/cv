@@ -6,20 +6,27 @@ import SectionTitle from '../SectionTitle';
 import EduBlock from '../EduBlock';
 
 function EduSection() {
-  // TODO implement theme change
-  // const theme = useSelector(
-  //   (state: RootStateOrAny) => state.themeReducer.theme
-  // );
-  // TODO implement other languages
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );
 
   return (
     <section className={'education'}>
-      <SectionTitle titleText={eduSection.eduSectionTitle[lang]} />
+      <SectionTitle
+        titleText={eduSection.eduSectionTitle[lang]}
+        theme={theme}
+      />
       {eduSection.eduSectionText[lang].map((eduBlockData) => {
-        return <EduBlock key={eduBlockData.institution} data={eduBlockData} />;
+        return (
+          <EduBlock
+            key={eduBlockData.institution}
+            data={eduBlockData}
+            theme={theme}
+          />
+        );
       })}
     </section>
   );

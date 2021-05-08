@@ -10,11 +10,19 @@
   width: 100%;
   margin-top: $margin-separator-2;
 
+  &--dark {
+    color: $color-block-description;
+  }
+  &--light {
+    color: $color-block-description-light;
+    font-weight: 700;
+  }
+
   &--left-column {
     @include flex(row, flex-end, flex-start);
 
     & .skill-block__points {
-      margin-left: 25px;
+      margin-left: 15px;
     }
   }
 
@@ -22,7 +30,7 @@
     @include flex(row-reverse, flex-end, flex-start);
 
     & .skill-block__points {
-      margin-right: 25px;
+      margin-right: 15px;
     }
   }
 }
@@ -30,11 +38,23 @@
 .point {
   width: 20px;
   height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
-  &--filled {
-    background-color: $color-block-title;
+  &--filled-dark {
+    background-image: url('../../assets/icons/skills/hexagon_filled.svg');
   }
-  &--empty {
-    border: 1px solid $color-block-title;
+
+  &--empty-dark {
+    background-image: url('../../assets/icons/skills/hexagon.svg');
+  }
+
+  &--filled-light {
+    background-image: url('../../assets/icons/skills/hexagon_filled_light.svg');
+  }
+
+  &--empty-light {
+    background-image: url('../../assets/icons/skills/hexagon_light.svg');
   }
 }

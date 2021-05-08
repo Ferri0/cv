@@ -9,8 +9,56 @@
   }
   &__language {
     @extend %font-block-title;
+
+    &--dark {
+      color: $color-block-title;
+    }
+    &--light {
+      color: $color-block-title-light;
+      font-weight: 700;
+    }
+  }
+  &__studying {
+    @extend %font-block-period;
+
+    &--dark {
+      color: $color-block-period;
+    }
+    &--light {
+      color: $color-block-period-light;
+      font-weight: 700;
+    }
   }
   &__level {
-    @extend %font-block-subtitle;
+    @extend %font-block-description;
+
+    &--dark {
+      color: $color-block-description;
+    }
+    &--light {
+      color: $color-block-description-light;
+      font-weight: 700;
+    }
+  }
+  &__certificate {
+    display: block;
+    margin-top: $margin-separator-4;
+    @extend %font-block-description;
+
+    &--dark {
+      color: $color-block-description;
+
+      &:hover {
+        color: $color-block-title;
+      }
+    }
+    &--light {
+      color: $color-block-period-light;
+      font-weight: 700;
+
+      &:hover {
+        color: $color-block-title-light;
+      }
+    }
   }
 }

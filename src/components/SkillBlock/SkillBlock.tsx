@@ -7,9 +7,10 @@ type skillBlockProps = {
     level: string;
   };
   align: 'left' | 'right';
+  theme: string;
 };
 
-function SkillBlock({data, align}: skillBlockProps) {
+function SkillBlock({data, align, theme}: skillBlockProps) {
   const levelPoints = [];
   const maxLevel = 6;
   const currentLevel = +data.level;
@@ -19,11 +20,16 @@ function SkillBlock({data, align}: skillBlockProps) {
   }
 
   return (
-    <div className={`skill-block skill-block--${align}-column`}>
+    <div
+      // @ts-ignore
+      xyz={`fade ${align === 'left' ? 'right-100%' : 'left-100%'} delay-0`}
+      className={`xyz-in skill-block skill-block--${align}-column skill-block--${theme}`}>
       <div>{data.skill}</div>
-      <div className={'skill-block__points'}>
+      <div className={' skill-block__points'}>
         {levelPoints.map((levelPoint, i) => {
-          return <div key={i} className={`point point--${levelPoint}`} />;
+          return (
+            <div key={i} className={` point point--${levelPoint}-${theme}`} />
+          );
         })}
       </div>
     </div>

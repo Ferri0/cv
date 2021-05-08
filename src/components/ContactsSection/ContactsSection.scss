@@ -1,0 +1,101 @@
+@import '../../scss/abstracts.scss';
+
+.contacts-section {
+  @include flex(column, space-between, flex-start);
+  width: 100%;
+
+  &__row {
+    width: 100%;
+    margin-top: 30px;
+    @include flex(row, space-around, flex-start);
+  }
+
+  &__icon {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all ease-out 0.2s;
+
+    &--fb-dark {
+      background-image: url('../../assets/icons/contacts/hexagon_empty.svg'),
+        url('../../assets/icons/contacts/facebook.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/contacts/hexagon_empty_hover.svg'),
+          url('../../assets/icons/contacts/facebook_hover.svg');
+      }
+    }
+
+    &--fb-light {
+      background-image: url('../../assets/icons/contacts/light-theme/hexagon_empty_light.svg'),
+        url('../../assets/icons/contacts/light-theme/facebook_light.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/contacts/light-theme/hexagon_empty_hover_light.svg'),
+          url('../../assets/icons/contacts/light-theme/facebook_hover_light.svg');
+      }
+    }
+
+    &--linkedin-dark {
+      background-image: url('../../assets/icons/contacts/linkedin.svg'),
+        url('../../assets/icons/contacts/hexagon_empty.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/contacts/linkedin_hover.svg'),
+          url('../../assets/icons/contacts/hexagon_empty_hover.svg');
+      }
+    }
+
+    &--linkedin-light {
+      background-image: url('../../assets/icons/contacts/light-theme/linkedin_light.svg'),
+        url('../../assets/icons/contacts/light-theme/hexagon_empty_light.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/contacts/light-theme/linkedin_hover_light.svg'),
+          url('../../assets/icons/contacts/light-theme/hexagon_empty_hover_light.svg');
+      }
+    }
+
+    &--skype-dark {
+      background-image: url('../../assets/icons/contacts/hexagon_empty.svg'),
+        url('../../assets/icons/contacts/skype.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/contacts/hexagon_empty_hover.svg'),
+          url('../../assets/icons/contacts/skype_hover.svg');
+      }
+    }
+
+    &--skype-light {
+      background-image: url('../../assets/icons/contacts/light-theme/hexagon_empty_light.svg'),
+        url('../../assets/icons/contacts/light-theme/skype_light.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/contacts/light-theme/hexagon_empty_hover_light.svg'),
+          url('../../assets/icons/contacts/light-theme/skype_hover_light.svg');
+      }
+    }
+
+    &--telegram-dark {
+      background-image: url('../../assets/icons/contacts/hexagon_empty.svg'),
+        url('../../assets/icons/contacts/telegram.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/contacts/hexagon_empty_hover.svg'),
+          url('../../assets/icons/contacts/telegram_hover.svg');
+      }
+    }
+
+    &--telegram-light {
+      background-image: url('../../assets/icons/contacts/light-theme/hexagon_empty_light.svg'),
+        url('../../assets/icons/contacts/light-theme/telegram_light.svg');
+
+      &:hover {
+        background-image: url('../../assets/icons/contacts/light-theme/hexagon_empty_hover_light.svg'),
+          url('../../assets/icons/contacts/light-theme/telegram_hover_light.svg');
+      }
+    }
+  }
+}

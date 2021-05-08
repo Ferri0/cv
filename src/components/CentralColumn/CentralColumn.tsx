@@ -1,15 +1,26 @@
-import React from 'react';
+import React, {ReactNode} from 'react';
 import './CentralColumn.scss';
+import {RootStateOrAny, useSelector} from 'react-redux';
 
-function CentralColumn() {
+function CentralColumn({children}: {children: ReactNode}) {
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
   return (
     <div className={'central-column'}>
       <div className="hexagon">
         <div className="hexTop" />
         <div className="hexBottom" />
       </div>
-      <div className={'central-column__triangle'} />
-      <div className={'central-column__block'} />
+      <div
+        className={`central-column__triangle central-column__triangle--${theme}`}
+      />
+      <div
+        // @ts-ignore
+        xyz="fade"
+        className={`central-column__block central-column__block--${theme}`}>
+        {children}
+      </div>
     </div>
   );
 }

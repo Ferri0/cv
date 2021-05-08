@@ -8,43 +8,58 @@
     "en": [
       {
         "language": "Russian",
-        "level": "Reading - Native | Speaking - Native"
+        "studying": "Native language",
+        "level": "Reading - Fluent | Speaking - Fluent"
       },
       {
         "language": "Ukrainian",
-        "level": "Reading - Native | Speaking - Native"
+        "studying": "Native language",
+        "level": "Reading - Fluent | Speaking - Fluent"
       },
       {
         "language": "English",
-        "level": "Reading - C1 | Speaking - A2/B1"
+        "studying": "Coursera/ESOL courses",
+        "level": "Reading - C2 | Speaking - B1",
+        "certificateText": "EF SET Certificate C2 (76/100)",
+        "certificateUrl": "https://www.efset.org/cert/B2PmJR"
       }
     ],
     "ru": [
       {
-        "language": "Russian",
-        "level": "Reading | Speaking - Native"
+        "language": "Русский ",
+        "studying": "Родной язык",
+        "level": "Свободное владение"
       },
       {
-        "language": "Ukrainian",
-        "level": "Reading | Speaking - Native"
+        "language": "Украинский ",
+        "studying": "Родной язык",
+        "level": "Свободное владение"
       },
       {
-        "language": "English",
-        "level": "Reading - C1 | Speaking - A2/B1"
+        "language": "Английский ",
+        "studying": "Coursera/ESOL курсы",
+        "level": "Чтение - C1 | Разговорный - A2/B1",
+        "certificateText": "EF SET Сертификат C2 (76/100)",
+        "certificateUrl": "https://www.efset.org/cert/B2PmJR"
       }
     ],
     "ua": [
       {
-        "language": "Russian",
-        "level": "Reading | Speaking - Native"
+        "language": "Російська  ",
+        "studying": "Рідна мова",
+        "level": "Вільне володіння"
       },
       {
-        "language": "Ukrainian",
-        "level": "Reading | Speaking - Native"
+        "language": "Українська  ",
+        "studying": "Рідна мова",
+        "level": "Вільне володіння"
       },
       {
-        "language": "English",
-        "level": "Reading - C1 | Speaking - A2/B1"
+        "language": "Англійська  ",
+        "studying": "Coursera/ESOL курси",
+        "level": "Читання - C1 | Розмовний - A2/B1",
+        "certificateText": "EF SET Сертифікат C2 (76/100)",
+        "certificateUrl": "https://www.efset.org/cert/B2PmJR"
       }
     ]
   }
