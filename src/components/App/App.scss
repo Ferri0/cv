@@ -2,6 +2,13 @@
 
 .app {
   position: relative;
-  background-color: $color-side-column-bg;
   @include flex(row, flex-start, center);
+
+  &--dark {
+    background-color: $color-side-column-bg;
+  }
+
+  &--light {
+    background-color: $color-side-column-bg-light;
+  }
 }

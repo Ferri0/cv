@@ -13,10 +13,14 @@ import HobbySection from '../HobbySection';
 import ContactsSection from '../ContactsSection';
 import LangSwitch from '../LangSwitch';
 import ThemeSwitch from '../ThemeSwitch';
+import {RootStateOrAny, useSelector} from 'react-redux';
 
 function App() {
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
   return (
-    <div className={'app'}>
+    <div className={`app app--${theme}`}>
       <LangSwitch />
       <ThemeSwitch />
       <SideColumn textAlign={'right'}>
