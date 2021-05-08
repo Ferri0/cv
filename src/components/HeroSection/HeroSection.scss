@@ -6,15 +6,38 @@
 
   &__name {
     @extend %font-name-section-title;
+
+    &--dark {
+      color: $color-section-title;
+    }
+    &--light {
+      color: $color-section-title-light;
+    }
   }
 
   &__position {
     @extend %font-name-section-subtitle;
     margin-top: $margin-separator-4;
+
+    &--dark {
+      color: $color-section-title;
+    }
+    &--light {
+      color: $color-section-title-light;
+      font-weight: 700;
+    }
   }
 
   &__intro {
     margin-top: $margin-separator-2;
     @extend %font-name-section-intro;
+
+    &--dark {
+      color: $color-block-description;
+    }
+    &--light {
+      color: $color-block-description-light;
+      font-weight: 700;
+    }
   }
 }

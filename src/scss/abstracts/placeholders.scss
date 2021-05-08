@@ -37,14 +37,12 @@
   font-family: $font-regular;
 }
 %font-name-section-title {
-  color: $color-section-title;
   font-weight: 400;
   font-size: $text-1;
   font-family: $font-header;
   text-transform: uppercase;
 }
 %font-name-section-subtitle {
-  color: $color-section-title;
   font-weight: 400;
   font-size: $text-3;
   font-family: $font-regular;
@@ -52,7 +50,6 @@
   //text-transform: uppercase;
 }
 %font-name-section-intro {
-  color: $color-block-description;
   font-weight: 400;
   font-size: $text-4;
   font-family: $font-regular;
