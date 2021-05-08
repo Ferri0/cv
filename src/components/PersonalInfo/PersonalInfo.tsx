@@ -18,7 +18,8 @@ function PersonalInfo() {
       {personalInfo.text.map((blockInfo) => {
         return (
           <div key={blockInfo.en.title} className={'personal-info__block'}>
-            <div className={'personal-info__block--title'}>
+            <div
+              className={`personal-info__block--title personal-info__block--title-${theme}`}>
               {blockInfo[lang].title}
             </div>
 
