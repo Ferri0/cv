@@ -10,6 +10,14 @@
   width: 100%;
   margin-top: $margin-separator-2;
 
+  &--dark {
+    color: $color-block-description;
+  }
+  &--light {
+    color: $color-block-description-light;
+    font-weight: 700;
+  }
+
   &--left-column {
     @include flex(row, flex-end, flex-start);
 

@@ -9,6 +9,7 @@ type skillSectionProps = {
   column: 'left' | 'right';
 };
 
+// eslint-disable - disabled in case of bug with prettier/prettier rules bug
 function SkillSection({column}: skillSectionProps) {
   // TODO implement theme change
   const theme = useSelector(
@@ -28,7 +29,12 @@ function SkillSection({column}: skillSectionProps) {
       />
       {skillSection.left.skillSectionSkills.map((skillInfo) => {
         return (
-          <SkillBlock data={skillInfo} align={column} key={skillInfo.skill} />
+          <SkillBlock
+            data={skillInfo}
+            align={column}
+            key={skillInfo.skill}
+            theme={theme}
+          />
         );
       })}
     </section>
@@ -40,7 +46,12 @@ function SkillSection({column}: skillSectionProps) {
       />
       {skillSection.right.skillSectionSkills.map((skillInfo) => {
         return (
-          <SkillBlock data={skillInfo} align={column} key={skillInfo.skill} />
+          <SkillBlock
+            data={skillInfo}
+            align={column}
+            key={skillInfo.skill}
+            theme={theme}
+          />
         );
       })}
     </section>
