@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useMemo} from 'react';
 import './LangSwitch.scss';
 import {RootStateOrAny, useDispatch, useSelector} from 'react-redux';
 import {
@@ -6,6 +6,17 @@ import {
   setRuLangAction,
   setUaLangAction,
 } from '../../store/langReducer';
+
+const imgUrls = [
+  '../../assets/icons/lang/hexagon_empty.svg',
+  '../../assets/icons/lang/hexagon_empty_white.svg',
+  '../../assets/icons/lang/en_selected.svg',
+  '../../assets/icons/lang/en.svg',
+  '../../assets/icons/lang/ru_selected.svg',
+  '../../assets/icons/lang/ru.svg',
+  '../../assets/icons/lang/ua_selected.svg',
+  '../../assets/icons/lang/ua.svg',
+];
 
 function LangSwitch() {
   const dispatch = useDispatch();
@@ -17,23 +28,12 @@ function LangSwitch() {
     (state: RootStateOrAny) => state.langReducer.lang
   );
 
-  const imgUrls = [
-    '../../assets/icons/lang/hexagon_empty.svg',
-    '../../assets/icons/lang/hexagon_empty_white.svg',
-    '../../assets/icons/lang/en_selected.svg',
-    '../../assets/icons/lang/en.svg',
-    '../../assets/icons/lang/ru_selected.svg',
-    '../../assets/icons/lang/ru.svg',
-    '../../assets/icons/lang/ua_selected.svg',
-    '../../assets/icons/lang/ua.svg',
-  ];
-
   useEffect(() => {
     imgUrls.forEach((imgUrl) => {
       const img = new Image();
       img.src = imgUrl;
     });
-  }, [imgUrls]);
+  }, []);
 
   return (
     <form id={'lang-switch'}>
