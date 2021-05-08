@@ -69,12 +69,12 @@
         "url": "https://github.com/Ferri0"
       },
       "ru": {
-        "title": "Сайт:",
+        "title": "GIT:",
         "value": "github.com/Ferri0",
         "url": "https://github.com/Ferri0"
       },
       "ua": {
-        "title": "Сайт:",
+        "title": "GIT:",
         "value": "github.com/Ferri0",
         "url": "https://github.com/Ferri0"
       }
@@ -86,14 +86,14 @@
         "url": "https://github.com/Ferri0/completed-projects"
       },
       "ru": {
-        "title": "Сайт:",
-        "value": "github.com/Ferri0",
-        "url": "https://github.com/Ferri0"
+        "title": "Портфолио:",
+        "value": "github.com/Ferri0/completed",
+        "url": "https://github.com/Ferri0/completed-projects"
       },
       "ua": {
-        "title": "Сайт:",
-        "value": "github.com/Ferri0",
-        "url": "https://github.com/Ferri0"
+        "title": "Портфоліо:",
+        "value": "github.com/Ferri0/completed",
+        "url": "https://github.com/Ferri0/completed-projects"
       }
     }
   ]
