@@ -22,12 +22,14 @@ function SkillBlock({data, align, theme}: skillBlockProps) {
 
   return (
     <div
-      className={`skill-block skill-block--${align}-column skill-block--${theme}`}>
+      // @ts-ignore
+      xyz={`fade ${align === 'left' ? 'right-100%' : 'left-100%'} delay-0`}
+      className={`xyz-in skill-block skill-block--${align}-column skill-block--${theme}`}>
       <div>{data.skill}</div>
-      <div className={'skill-block__points'}>
+      <div className={' skill-block__points'}>
         {levelPoints.map((levelPoint, i) => {
           return (
-            <div key={i} className={`point point--${levelPoint}-${theme}`} />
+            <div key={i} className={` point point--${levelPoint}-${theme}`} />
           );
         })}
       </div>

@@ -1,5 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import './App.scss';
+import '@animxyz/core';
 import CentralColumn from '../CentralColumn';
 import SideColumn from '../SideColumn';
 import ExperienceSection from '../ExperienceSection';

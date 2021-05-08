@@ -13,21 +13,22 @@ type experienceDataType = {
 
 function ExperienceBlock({data, theme}: experienceDataType) {
   return (
-    <div className={'experience-block'}>
+    // @ts-ignore
+    <div className={'experience-block'} xyz="fade right-100% delay-0">
       <div
-        className={`experience-block__company experience-block__company--${theme}`}>
+        className={`xyz-in experience-block__company experience-block__company--${theme}`}>
         {data.company}
       </div>
       <div
-        className={`experience-block__position experience-block__position--${theme}`}>
+        className={`xyz-in experience-block__position experience-block__position--${theme}`}>
         {data.position}
       </div>
       <div
-        className={`experience-block__period experience-block__period--${theme}`}>
+        className={`xyz-in experience-block__period experience-block__period--${theme}`}>
         {data.period}
       </div>
       <div
-        className={`experience-block__description experience-block__description--${theme}`}>
+        className={`xyz-in experience-block__description experience-block__description--${theme}`}>
         {data.description}
       </div>
     </div>

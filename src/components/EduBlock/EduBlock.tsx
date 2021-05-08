@@ -13,16 +13,20 @@ type eduDataType = {
 
 function EduBlock({data, theme}: eduDataType) {
   return (
-    <div key={data.institution} className={'edu-block'}>
+    <div
+      key={data.institution}
+      className={'edu-block'}
+      // @ts-ignore
+      xyz="fade left-100% delay-0">
       <div
-        className={`edu-block__institution edu-block__institution--${theme}`}>
+        className={`xyz-in edu-block__institution edu-block__institution--${theme}`}>
         {data.institution}
       </div>
-      <div className={`edu-block__period edu-block__period--${theme}`}>
+      <div className={`xyz-in edu-block__period edu-block__period--${theme}`}>
         {data.period}
       </div>
       <a
-        className={`edu-block__certificate edu-block__certificate--${theme}`}
+        className={`xyz-in edu-block__certificate edu-block__certificate--${theme}`}
         href={data.certificateUrl}
         target={'_blank'}
         rel={'noreferrer'}>

@@ -26,17 +26,17 @@
     ],
     "ru": [
       {
-        "language": "Russian",
+        "language": "Russian ",
         "studying": "Native language",
         "level": "Reading | Speaking - Native"
       },
       {
-        "language": "Ukrainian",
+        "language": "Ukrainian ",
         "studying": "Native language",
         "level": "Reading | Speaking - Native"
       },
       {
-        "language": "English",
+        "language": "English ",
         "studying": "Native language",
         "level": "Reading - C1 | Speaking - A2/B1",
         "certificateText": "certificate",
@@ -45,17 +45,17 @@
     ],
     "ua": [
       {
-        "language": "Russian",
+        "language": "Russian  ",
         "studying": "Native language",
         "level": "Reading | Speaking - Native"
       },
       {
-        "language": "Ukrainian",
+        "language": "Ukrainian  ",
         "studying": "Native language",
         "level": "Reading | Speaking - Native"
       },
       {
-        "language": "English",
+        "language": "English  ",
         "studying": "Native language",
         "level": "Reading - C1 | Speaking - A2/B1",
         "certificateText": "certificate",

@@ -14,21 +14,23 @@ type langDataType = {
 
 function LangBlock({data, theme}: langDataType) {
   return (
-    <div className={'language-block'}>
+    // @ts-ignore
+    <div xyz="fade right-100% delay-0" className={'language-block'}>
       <div
-        className={`language-block__language language-block__language--${theme}`}>
+        className={`xyz-in language-block__language language-block__language--${theme}`}>
         {data.language}
       </div>
       <div
-        className={`language-block__studying language-block__studying--${theme}`}>
+        className={`xyz-in language-block__studying language-block__studying--${theme}`}>
         {data.studying}
       </div>
-      <div className={`language-block__level language-block__level--${theme}`}>
+      <div
+        className={`xyz-in language-block__level language-block__level--${theme}`}>
         {data.level}
       </div>
       {data.certificateText ? (
         <a
-          className={`language-block__certificate language-block__certificate--${theme}`}
+          className={`xyz-in language-block__certificate language-block__certificate--${theme}`}
           href={data.certificateUrl}
           target={'_blank'}
           rel={'noreferrer'}>

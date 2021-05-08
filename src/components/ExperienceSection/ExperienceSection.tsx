@@ -16,6 +16,7 @@ function ExperienceSection() {
   );
 
   return (
+    // @ts-ignore
     <section className={'experience'}>
       <SectionTitle
         titleText={experienceSection.experienceSectionTitle[lang]}
