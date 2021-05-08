@@ -4,9 +4,11 @@ import {RootStateOrAny, useSelector} from 'react-redux';
 
 function ContactsSection() {
   // TODO implement theme change
-  // const theme = useSelector(
-  //   (state: RootStateOrAny) => state.themeReducer.theme
-  // );
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
+  console.log('theme from ContactsSection');
+  console.log(theme);
 
   return (
     <section className={'contacts-section'}>

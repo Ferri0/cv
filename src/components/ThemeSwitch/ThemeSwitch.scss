@@ -1,0 +1,63 @@
+@import '../../scss/abstracts';
+
+.container {
+  @include flex(column, center, center);
+  position: absolute;
+  top: 23px;
+  right: 23px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 35px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  margin: auto 0;
+  background: white url('https://i.ibb.co/FxzBYR9/night.png') no-repeat center;
+  box-shadow: 0 0 15px #2020203d;
+  transition: 0.4s;
+  content: '';
+}
+
+input:checked + .slider {
+  background-color: $color-block-title;
+}
+
+input:checked + .slider:before {
+  background: white url('https://i.ibb.co/7JfqXxB/sunny.png') no-repeat center;
+  transform: translateX(36px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
