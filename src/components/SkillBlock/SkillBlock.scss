@@ -38,18 +38,23 @@
 .point {
   width: 20px;
   height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 
-  &--filled {
+  &--filled-dark {
     background-image: url('../../assets/icons/skills/hexagon_filled.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
   }
 
-  &--empty {
+  &--empty-dark {
     background-image: url('../../assets/icons/skills/hexagon.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+  }
+
+  &--filled-light {
+    background-image: url('../../assets/icons/skills/hexagon_filled_light.svg');
+  }
+
+  &--empty-light {
+    background-image: url('../../assets/icons/skills/hexagon_light.svg');
   }
 }

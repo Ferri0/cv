@@ -1,5 +1,6 @@
 import React from 'react';
 import './SkillBlock.scss';
+import {RootStateOrAny, useSelector} from 'react-redux';
 
 type skillBlockProps = {
   data: {
@@ -25,7 +26,9 @@ function SkillBlock({data, align, theme}: skillBlockProps) {
       <div>{data.skill}</div>
       <div className={'skill-block__points'}>
         {levelPoints.map((levelPoint, i) => {
-          return <div key={i} className={`point point--${levelPoint}`} />;
+          return (
+            <div key={i} className={`point point--${levelPoint}-${theme}`} />
+          );
         })}
       </div>
     </div>
