@@ -23,6 +23,15 @@
 
     & .skill-block__points {
       margin-left: 15px;
+
+      @media (max-width: 1150px) {
+        margin-right: 15px;
+        margin-left: 0;
+      }
+    }
+
+    @media (max-width: 1150px) {
+      @include flex(row-reverse, flex-end, flex-start);
     }
   }
 

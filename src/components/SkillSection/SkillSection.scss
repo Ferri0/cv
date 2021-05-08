@@ -6,6 +6,10 @@
   margin-top: $margin-separator-2;
   margin-bottom: $margin-separator-2;
 
+  @media (max-width: 1150px) {
+    order: 1;
+  }
+
   &--left {
     @include flex(column, flex-end, flex-start);
   }

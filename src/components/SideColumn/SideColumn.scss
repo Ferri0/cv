@@ -8,9 +8,24 @@
 
   &--align-right {
     text-align: right;
+
+    @media (max-width: 1150px) {
+      justify-content: flex-start;
+      order: 2;
+      height: auto;
+      padding-top: 0;
+      text-align: left;
+    }
   }
 
   &--align-left {
     text-align: left;
+
+    @media (max-width: 1150px) {
+      justify-content: flex-start;
+      order: 3;
+      height: auto;
+      padding-top: 0;
+    }
   }
 }

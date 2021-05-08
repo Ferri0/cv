@@ -4,6 +4,10 @@
   position: relative;
   @include flex(row, flex-start, center);
 
+  @media (max-width: 1150px) {
+    @include flex(column, flex-start, center);
+  }
+
   &--dark {
     background-color: $color-side-column-bg;
   }
