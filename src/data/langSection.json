@@ -26,39 +26,39 @@
     ],
     "ru": [
       {
-        "language": "Russian ",
-        "studying": "Native language",
-        "level": "Reading | Speaking - Native"
+        "language": "Русский ",
+        "studying": "Родной язык",
+        "level": "Свободное владение"
       },
       {
-        "language": "Ukrainian ",
-        "studying": "Native language",
-        "level": "Reading | Speaking - Native"
+        "language": "Украинский ",
+        "studying": "Родной язык",
+        "level": "Свободное владение"
       },
       {
-        "language": "English ",
-        "studying": "Native language",
-        "level": "Reading - C1 | Speaking - A2/B1",
-        "certificateText": "certificate",
+        "language": "Английский ",
+        "studying": "Coursera/ESOL курсы",
+        "level": "Чтение - C1 | Разговорный - A2/B1",
+        "certificateText": "EF SET Сертификат C2 (76/100)",
         "certificateUrl": "https://www.efset.org/cert/B2PmJR"
       }
     ],
     "ua": [
       {
-        "language": "Russian  ",
-        "studying": "Native language",
-        "level": "Reading | Speaking - Native"
+        "language": "Російська  ",
+        "studying": "Рідна мова",
+        "level": "Вільне володіння"
       },
       {
-        "language": "Ukrainian  ",
-        "studying": "Native language",
-        "level": "Reading | Speaking - Native"
+        "language": "Українська  ",
+        "studying": "Рідна мова",
+        "level": "Вільне володіння"
       },
       {
-        "language": "English  ",
-        "studying": "Native language",
-        "level": "Reading - C1 | Speaking - A2/B1",
-        "certificateText": "certificate",
+        "language": "Англійська  ",
+        "studying": "Coursera/ESOL курси",
+        "level": "Читання - C1 | Розмовний - A2/B1",
+        "certificateText": "EF SET Сертифікат C2 (76/100)",
         "certificateUrl": "https://www.efset.org/cert/B2PmJR"
       }
     ]
