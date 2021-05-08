@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import './App.scss';
 import CentralColumn from '../CentralColumn';
 import SideColumn from '../SideColumn';
@@ -19,6 +19,19 @@ function App() {
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
   );
+
+  const root = useRef(document.getElementById('root'));
+
+  useEffect(() => {
+    if (theme === 'dark') {
+      root.current!.classList.add('dark-theme');
+      root.current!.classList.remove('light-theme');
+    } else {
+      root.current!.classList.add('light-theme');
+      root.current!.classList.remove('dark-theme');
+    }
+  }, [theme]);
+
   return (
     <div className={`app app--${theme}`}>
       <LangSwitch />
