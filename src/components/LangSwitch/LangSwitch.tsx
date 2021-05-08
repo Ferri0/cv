@@ -9,8 +9,8 @@ import {
 import {preloadImgs} from '../../utils/preloadImgs';
 
 const imgUrls = [
+  '../../assets/icons/lang/hexagon_empty_hover.svg',
   '../../assets/icons/lang/hexagon_empty.svg',
-  '../../assets/icons/lang/hexagon_empty_white.svg',
   '../../assets/icons/lang/en_selected.svg',
   '../../assets/icons/lang/en.svg',
   '../../assets/icons/lang/ru_selected.svg',
