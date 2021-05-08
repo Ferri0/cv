@@ -21,15 +21,25 @@
   width: 60px;
   height: 60px;
 
-  &--active {
+  &--active-dark {
     background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
       url('../../assets/icons/lang/en_selected.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    transform: scale(1.1);
   }
 
-  &--inactive {
+  &--active-light {
+    background-image: url('../../assets/icons/lang/light-theme/hexagon_empty.svg'),
+      url('../../assets/icons/lang/light-theme/en_selected.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: scale(1.1);
+  }
+
+  &--inactive-dark {
     background-image: url('../../assets/icons/lang/hexagon_empty_white.svg'),
       url('../../assets/icons/lang/en.svg');
     background-repeat: no-repeat;
@@ -39,6 +49,22 @@
     &:hover {
       background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
         url('../../assets/icons/lang/en_selected.svg');
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+
+  &--inactive-light {
+    background-image: url('../../assets/icons/lang/light-theme/hexagon_empty_white.svg'),
+      url('../../assets/icons/lang/light-theme/en.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &:hover {
+      background-image: url('../../assets/icons/lang/light-theme/hexagon_empty.svg'),
+        url('../../assets/icons/lang/light-theme/en_selected.svg');
+      transform: scale(1.1);
       cursor: pointer;
     }
   }
@@ -49,15 +75,25 @@
   width: 60px;
   height: 60px;
 
-  &--active {
+  &--active-dark {
     background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
       url('../../assets/icons/lang/ru_selected.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    transform: scale(1.1);
   }
 
-  &--inactive {
+  &--active-light {
+    background-image: url('../../assets/icons/lang/light-theme/hexagon_empty.svg'),
+      url('../../assets/icons/lang/light-theme/ru_selected.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: scale(1.1);
+  }
+
+  &--inactive-dark {
     background-image: url('../../assets/icons/lang/hexagon_empty_white.svg'),
       url('../../assets/icons/lang/ru.svg');
     background-repeat: no-repeat;
@@ -67,6 +103,22 @@
     &:hover {
       background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
         url('../../assets/icons/lang/ru_selected.svg');
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+
+  &--inactive-light {
+    background-image: url('../../assets/icons/lang/light-theme/hexagon_empty_white.svg'),
+      url('../../assets/icons/lang/light-theme/ru.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &:hover {
+      background-image: url('../../assets/icons/lang/light-theme/hexagon_empty.svg'),
+        url('../../assets/icons/lang/light-theme/ru_selected.svg');
+      transform: scale(1.1);
       cursor: pointer;
     }
   }
@@ -77,15 +129,25 @@
   width: 60px;
   height: 60px;
 
-  &--active {
+  &--active-dark {
     background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
       url('../../assets/icons/lang/ua_selected.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    transform: scale(1.1);
   }
 
-  &--inactive {
+  &--active-light {
+    background-image: url('../../assets/icons/lang/light-theme/hexagon_empty.svg'),
+      url('../../assets/icons/lang/light-theme/ua_selected.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transform: scale(1.1);
+  }
+
+  &--inactive-dark {
     background-image: url('../../assets/icons/lang/hexagon_empty_white.svg'),
       url('../../assets/icons/lang/ua.svg');
     background-repeat: no-repeat;
@@ -95,6 +157,22 @@
     &:hover {
       background-image: url('../../assets/icons/lang/hexagon_empty.svg'),
         url('../../assets/icons/lang/ua_selected.svg');
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+
+  &--inactive-light {
+    background-image: url('../../assets/icons/lang/light-theme/hexagon_empty_white.svg'),
+      url('../../assets/icons/lang/light-theme/ua.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &:hover {
+      background-image: url('../../assets/icons/lang/light-theme/hexagon_empty.svg'),
+        url('../../assets/icons/lang/light-theme/ua_selected.svg');
+      transform: scale(1.1);
       cursor: pointer;
     }
   }

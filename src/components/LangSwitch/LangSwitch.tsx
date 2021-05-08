@@ -22,9 +22,9 @@ const imgUrls = [
 function LangSwitch() {
   const dispatch = useDispatch();
   // TODO
-  // const theme = useSelector(
-  //   (state: RootStateOrAny) => state.themeReducer.theme
-  // );
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );
@@ -38,7 +38,7 @@ function LangSwitch() {
       <label
         className={`en-btn-label en-btn-label--${
           lang === 'en' ? 'active' : 'inactive'
-        }`}
+        }-${theme}`}
         htmlFor={'en-btn'}
       />
 
@@ -52,7 +52,7 @@ function LangSwitch() {
       <label
         className={`ru-btn-label ru-btn-label--${
           lang === 'ru' ? 'active' : 'inactive'
-        }`}
+        }-${theme}`}
         htmlFor={'ru-btn'}
       />
       <input
@@ -65,7 +65,7 @@ function LangSwitch() {
       <label
         className={`ua-btn-label ua-btn-label--${
           lang === 'ua' ? 'active' : 'inactive'
-        }`}
+        }-${theme}`}
         htmlFor={'ua-btn'}
       />
 
