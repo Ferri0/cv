@@ -55,10 +55,10 @@
     &--light {
       color: $color-block-period-light;
       font-weight: 700;
-    }
 
-    &:hover {
-      color: $color-block-title-light;
+      &:hover {
+        color: $color-block-title-light;
+      }
     }
   }
 }
