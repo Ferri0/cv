@@ -26,6 +26,7 @@ function ProjectSection() {
           <ProjectBlock
             key={projectBlockInfo.project}
             data={projectBlockInfo}
+            theme={theme}
           />
         );
       })}

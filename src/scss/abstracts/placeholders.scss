@@ -9,7 +9,6 @@
   text-transform: uppercase;
 }
 %font-block-title {
-  color: $color-block-title;
   font-weight: 400;
   font-size: $text-3;
   font-family: $font-header;
@@ -22,13 +21,11 @@
   font-family: $font-header;
 }
 %font-block-period {
-  color: $color-block-period;
   font-weight: 500;
   font-size: $text-5;
   font-family: $font-regular;
 }
 %font-block-description {
-  color: $color-block-description;
   font-weight: 400;
   font-size: $text-5;
   font-family: $font-regular;

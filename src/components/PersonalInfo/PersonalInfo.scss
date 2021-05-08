@@ -18,12 +18,32 @@
     &--value {
       margin-top: 8px;
       @extend %font-block-title;
+
+      &-dark {
+        color: $color-block-title;
+      }
+      &-light {
+        color: $color-block-title-light;
+        font-weight: 700;
+      }
     }
     &--link {
       margin-top: 8px;
       @extend %font-block-title;
-      &:hover {
-        color: $color-block-subtitle;
+
+      &-dark {
+        color: $color-block-title;
+        &:hover {
+          color: $color-block-subtitle;
+        }
+      }
+
+      &-light {
+        color: $color-block-title-light;
+        font-weight: 700;
+        &:hover {
+          color: $color-block-subtitle-light;
+        }
       }
     }
   }

@@ -5,9 +5,9 @@ import * as personalInfo from '../../data/personalInfo.json';
 
 function PersonalInfo() {
   // TODO implement theme change
-  // const theme = useSelector(
-  //   (state: RootStateOrAny) => state.themeReducer.theme
-  // );
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
   // TODO implement other languages
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
@@ -27,11 +27,12 @@ function PersonalInfo() {
                 href={blockInfo[lang].url}
                 target={'_blank'}
                 rel={'noreferrer'}
-                className={'personal-info__block--link'}>
+                className={`personal-info__block--link personal-info__block--link-${theme}`}>
                 {blockInfo[lang].value}
               </a>
             ) : (
-              <div className={'personal-info__block--value'}>
+              <div
+                className={`personal-info__block--value personal-info__block--value-${theme}`}>
                 {blockInfo[lang].value}
               </div>
             )}
