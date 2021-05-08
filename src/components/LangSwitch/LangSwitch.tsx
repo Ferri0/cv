@@ -9,14 +9,22 @@ import {
 import {preloadImgs} from '../../utils/preloadImgs';
 
 const imgUrls = [
-  '../../assets/icons/lang/hexagon_empty_hover.svg',
   '../../assets/icons/lang/hexagon_empty.svg',
+  '../../assets/icons/lang/hexagon_empty_white.svg',
   '../../assets/icons/lang/en_selected.svg',
   '../../assets/icons/lang/en.svg',
   '../../assets/icons/lang/ru_selected.svg',
   '../../assets/icons/lang/ru.svg',
   '../../assets/icons/lang/ua_selected.svg',
   '../../assets/icons/lang/ua.svg',
+  '../../assets/icons/lang/light-theme/hexagon_empty.svg',
+  '../../assets/icons/lang/light-theme/hexagon_empty_white.svg',
+  '../../assets/icons/lang/light-theme/en_selected.svg',
+  '../../assets/icons/lang/light-theme/en.svg',
+  '../../assets/icons/lang/light-theme/ru_selected.svg',
+  '../../assets/icons/lang/light-theme/ru.svg',
+  '../../assets/icons/lang/light-theme/ua_selected.svg',
+  '../../assets/icons/lang/light-theme/ua.svg',
 ];
 
 function LangSwitch() {

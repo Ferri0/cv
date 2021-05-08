@@ -15,6 +15,16 @@ const imgUrls = [
   '../../assets/icons/contacts/telegram.svg',
   '../../assets/icons/contacts/hexagon_empty_hover.svg',
   '../../assets/icons/contacts/hexagon_empty.svg',
+  '../../assets/icons/contacts/light-theme/facebook_light.svg',
+  '../../assets/icons/contacts/light-theme/telegram_light.svg',
+  '../../assets/icons/contacts/light-theme/linkedin_light.svg',
+  '../../assets/icons/contacts/light-theme/skype_light.svg',
+  '../../assets/icons/contacts/light-theme/facebook_hover_light.svg',
+  '../../assets/icons/contacts/light-theme/telegram_hover_light.svg',
+  '../../assets/icons/contacts/light-theme/linkedin_hover_light.svg',
+  '../../assets/icons/contacts/light-theme/skype_hover_light.svg',
+  '../../assets/icons/contacts/hexagon_empty_hover_light.svg',
+  '../../assets/icons/contacts/hexagon_empty_light.svg',
 ];
 
 function ContactsSection() {
