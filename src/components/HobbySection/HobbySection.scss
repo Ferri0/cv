@@ -7,6 +7,14 @@
     width: 100%;
     text-align: center;
     @extend %font-section-title;
+
+    &--dark {
+      color: $color-section-title;
+    }
+
+    &--light {
+      color: $color-section-title-light;
+    }
   }
   &__icons-block {
     @include flex(row, space-between, flex-start);

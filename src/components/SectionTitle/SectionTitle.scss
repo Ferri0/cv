@@ -7,4 +7,12 @@
   height: 50px;
   border-top: 4px dotted $color-separator;
   border-bottom: 4px dotted $color-separator;
+
+  &--dark {
+    color: $color-section-title;
+  }
+
+  &--light {
+    color: $color-section-title-light;
+  }
 }

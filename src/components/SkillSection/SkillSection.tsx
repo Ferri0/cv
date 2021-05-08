@@ -11,9 +11,9 @@ type skillSectionProps = {
 
 function SkillSection({column}: skillSectionProps) {
   // TODO implement theme change
-  // const theme = useSelector(
-  //   (state: RootStateOrAny) => state.themeReducer.theme
-  // );
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
   // TODO implement other languages
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
@@ -22,7 +22,10 @@ function SkillSection({column}: skillSectionProps) {
   // cant understand why. That's why used ternary operator and boilerplate
   return column === 'left' ? (
     <section className={`skills skills--left`}>
-      <SectionTitle titleText={skillSection.left.skillSectionTitle[lang]} />
+      <SectionTitle
+        titleText={skillSection.left.skillSectionTitle[lang]}
+        theme={theme}
+      />
       {skillSection.left.skillSectionSkills.map((skillInfo) => {
         return (
           <SkillBlock data={skillInfo} align={column} key={skillInfo.skill} />
@@ -31,7 +34,10 @@ function SkillSection({column}: skillSectionProps) {
     </section>
   ) : (
     <section className={`skills skills--right`}>
-      <SectionTitle titleText={skillSection.right.skillSectionTitle[lang]} />
+      <SectionTitle
+        titleText={skillSection.right.skillSectionTitle[lang]}
+        theme={theme}
+      />
       {skillSection.right.skillSectionSkills.map((skillInfo) => {
         return (
           <SkillBlock data={skillInfo} align={column} key={skillInfo.skill} />

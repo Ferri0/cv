@@ -7,9 +7,9 @@ import LangBlock from '../LangBlock';
 
 function LangSection() {
   // TODO implement theme change
-  // const theme = useSelector(
-  //   (state: RootStateOrAny) => state.themeReducer.theme
-  // );
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
   // TODO implement other languages
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
@@ -17,7 +17,10 @@ function LangSection() {
 
   return (
     <section className={'languages'}>
-      <SectionTitle titleText={langSection.langSectionTitle[lang]} />
+      <SectionTitle
+        titleText={langSection.langSectionTitle[lang]}
+        theme={theme}
+      />
       {langSection.langSectionText[lang].map((langBlockInfo) => {
         return <LangBlock key={langBlockInfo.language} data={langBlockInfo} />;
       })}

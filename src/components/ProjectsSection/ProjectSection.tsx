@@ -7,9 +7,9 @@ import ProjectBlock from '../ProjectBlock';
 
 function ProjectSection() {
   // TODO implement theme change
-  // const theme = useSelector(
-  //   (state: RootStateOrAny) => state.themeReducer.theme
-  // );
+  const theme = useSelector(
+    (state: RootStateOrAny) => state.themeReducer.theme
+  );
   // TODO implement other languages
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
@@ -17,7 +17,10 @@ function ProjectSection() {
 
   return (
     <section className={'projects'}>
-      <SectionTitle titleText={projectsSection.projectsSectionTitle[lang]} />
+      <SectionTitle
+        theme={theme}
+        titleText={projectsSection.projectsSectionTitle[lang]}
+      />
       {projectsSection.projectsSectionText[lang].map((projectBlockInfo) => {
         return (
           <ProjectBlock
