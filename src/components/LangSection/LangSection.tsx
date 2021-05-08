@@ -22,7 +22,13 @@ function LangSection() {
         theme={theme}
       />
       {langSection.langSectionText[lang].map((langBlockInfo) => {
-        return <LangBlock key={langBlockInfo.language} data={langBlockInfo} />;
+        return (
+          <LangBlock
+            key={langBlockInfo.language}
+            data={langBlockInfo}
+            theme={theme}
+          />
+        );
       })}
     </section>
   );
