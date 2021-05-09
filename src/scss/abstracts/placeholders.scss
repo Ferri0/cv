@@ -1,6 +1,11 @@
 //@extend %absolute-center;
 @import '../abstracts/constants';
 
+// animations
+%animation-shift-right {
+  animation: 0.5s ease 0s 1 normal shift-right;
+}
+
 // Font settings
 %font-section-title {
   font-weight: 400;

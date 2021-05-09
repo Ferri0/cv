@@ -1,5 +1,12 @@
-// example
-// background-color: $color-red;
+// animations
+@keyframes shift-right {
+  from {
+    left: -120%;
+  }
+  to {
+    left: 0;
+  }
+}
 
 // layout height
 $layout-height: 1750px;
