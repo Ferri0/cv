@@ -17,6 +17,15 @@
   }
 }
 
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 // layout height
 $layout-height: 1750px;
 

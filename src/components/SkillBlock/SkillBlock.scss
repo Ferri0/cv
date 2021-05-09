@@ -20,6 +20,8 @@
   }
 
   &--left-column {
+    position: relative;
+    @extend %animation-shift-left;
     @include flex(row, flex-end, flex-start);
 
     & .skill-block__points {

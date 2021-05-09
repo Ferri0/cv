@@ -1,6 +1,7 @@
 @import '../../scss/abstracts.scss';
 
 .contacts-section {
+  @extend %animation-fade;
   @include flex(column, space-between, flex-start);
   width: 100%;
 

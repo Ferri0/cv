@@ -1,6 +1,7 @@
 @import '../../scss/abstracts.scss';
 
 .hobby-section {
+  @extend %animation-fade;
   width: 100%;
 
   &__title {

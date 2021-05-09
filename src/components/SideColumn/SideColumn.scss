@@ -1,10 +1,11 @@
 @import '../../scss/abstracts.scss';
 
 .side-column {
-  @include flex(column, flex-end, center);
   width: 390px;
   height: $layout-height;
   padding: 525px 25px 0;
+  overflow: hidden;
+  @include flex(column, flex-end, center);
 
   &--align-right {
     text-align: right;
