@@ -6,28 +6,49 @@ import {
   setRuLangAction,
   setUaLangAction,
 } from '../../store/langReducer';
-import {preloadImgs} from '../../utils/preloadImgs';
-
-const imgUrls = [
-  '../../assets/icons/lang/hexagon_empty.svg',
-  '../../assets/icons/lang/hexagon_empty_white.svg',
-  '../../assets/icons/lang/en_selected.svg',
-  '../../assets/icons/lang/en.svg',
-  '../../assets/icons/lang/ru_selected.svg',
-  '../../assets/icons/lang/ru.svg',
-  '../../assets/icons/lang/ua_selected.svg',
-  '../../assets/icons/lang/ua.svg',
-  '../../assets/icons/lang/light-theme/hexagon_empty.svg',
-  '../../assets/icons/lang/light-theme/hexagon_empty_white.svg',
-  '../../assets/icons/lang/light-theme/en_selected.svg',
-  '../../assets/icons/lang/light-theme/en.svg',
-  '../../assets/icons/lang/light-theme/ru_selected.svg',
-  '../../assets/icons/lang/light-theme/ru.svg',
-  '../../assets/icons/lang/light-theme/ua_selected.svg',
-  '../../assets/icons/lang/light-theme/ua.svg',
-];
+import img1 from '../../assets/icons/lang/hexagon_empty.svg';
+import img2 from '../../assets/icons/lang/hexagon_empty_white.svg';
+import img3 from '../../assets/icons/lang/en_selected.svg';
+import img4 from '../../assets/icons/lang/en.svg';
+import img5 from '../../assets/icons/lang/ru_selected.svg';
+import img6 from '../../assets/icons/lang/ru.svg';
+import img7 from '../../assets/icons/lang/ua_selected.svg';
+import img8 from '../../assets/icons/lang/ua.svg';
+import img9 from '../../assets/icons/lang/light-theme/hexagon_empty.svg';
+import img10 from '../../assets/icons/lang/light-theme/hexagon_empty_white.svg';
+import img11 from '../../assets/icons/lang/light-theme/en_selected.svg';
+import img12 from '../../assets/icons/lang/light-theme/en.svg';
+import img13 from '../../assets/icons/lang/light-theme/ru_selected.svg';
+import img14 from '../../assets/icons/lang/light-theme/ru.svg';
+import img15 from '../../assets/icons/lang/light-theme/ua_selected.svg';
+import img16 from '../../assets/icons/lang/light-theme/ua.svg';
 
 function LangSwitch() {
+  // preload images
+  useEffect(() => {
+    const preloadedImgs = [
+      img1,
+      img2,
+      img3,
+      img4,
+      img5,
+      img6,
+      img7,
+      img8,
+      img9,
+      img10,
+      img11,
+      img12,
+      img13,
+      img14,
+      img15,
+      img16,
+    ];
+    preloadedImgs.forEach((image) => {
+      new Image().src = image;
+    });
+  }, []);
+
   const dispatch = useDispatch();
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
@@ -35,10 +56,6 @@ function LangSwitch() {
   const lang: 'en' | 'ua' | 'ru' = useSelector(
     (state: RootStateOrAny) => state.langReducer.lang
   );
-
-  useEffect(() => {
-    preloadImgs(imgUrls);
-  }, []);
 
   return (
     <form id={'lang-switch'}>

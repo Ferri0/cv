@@ -12,7 +12,7 @@ function HeroSection() {
   );
 
   return (
-    <section className={'xyz-in hero-section'}>
+    <section className={'hero-section'}>
       <div className={`hero-section__name hero-section__name--${theme}`}>
         {heroSection.heroSectionTitle[lang]}
       </div>

@@ -20,6 +20,8 @@ import {
   setUaLangAction,
 } from '../../store/langReducer';
 import {switchThemeAction} from '../../store/themeReducer';
+import img1 from '../../assets/cv_dark.png';
+import img2 from '../../assets/cv_light.png';
 
 function App() {
   const dispatch = useDispatch();
@@ -30,7 +32,10 @@ function App() {
     (state: RootStateOrAny) => state.langReducer.lang
   );
 
+  // preload bg imgs and set stored language
   useEffect(() => {
+    new Image().src = img1;
+    new Image().src = img2;
     const storedLang = window.localStorage.getItem('abrasimov-cv-lang');
     if (storedLang === 'en') {
       dispatch(setEnLangAction());

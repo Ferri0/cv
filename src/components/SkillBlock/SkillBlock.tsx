@@ -21,7 +21,7 @@ function SkillBlock({data, align, theme}: skillBlockProps) {
 
   return (
     <div
-      className={`xyz-in skill-block skill-block--${align}-column skill-block--${theme}`}>
+      className={`skill-block skill-block--${align}-column skill-block--${theme}`}>
       <div>{data.skill}</div>
       <div className={' skill-block__points'}>
         {levelPoints.map((levelPoint, i) => {
