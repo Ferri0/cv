@@ -13,12 +13,48 @@ import HobbySection from '../HobbySection';
 import ContactsSection from '../ContactsSection';
 import LangSwitch from '../LangSwitch';
 import ThemeSwitch from '../ThemeSwitch';
-import {RootStateOrAny, useSelector} from 'react-redux';
+import {RootStateOrAny, useDispatch, useSelector} from 'react-redux';
+import {
+  setEnLangAction,
+  setRuLangAction,
+  setUaLangAction,
+} from '../../store/langReducer';
+import {switchThemeAction} from '../../store/themeReducer';
 
 function App() {
+  const dispatch = useDispatch();
   const theme = useSelector(
     (state: RootStateOrAny) => state.themeReducer.theme
   );
+  const lang: 'en' | 'ua' | 'ru' = useSelector(
+    (state: RootStateOrAny) => state.langReducer.lang
+  );
+
+  useEffect(() => {
+    const storedLang = window.localStorage.getItem('abrasimov-cv-lang');
+    if (storedLang === 'en') {
+      dispatch(setEnLangAction());
+    } else if (storedLang === 'ru') {
+      dispatch(setRuLangAction());
+    } else {
+      dispatch(setUaLangAction());
+    }
+  }, [dispatch]);
+
+  useEffect(() => {
+    window.localStorage.setItem('abrasimov-cv-lang', lang);
+  }, [lang]);
+
+  useEffect(() => {
+    const storedTheme = window.localStorage.getItem('abrasimov-cv-theme');
+    if (storedTheme === 'light') {
+      dispatch(switchThemeAction());
+    }
+  }, [dispatch]);
+
+  useEffect(() => {
+    window.localStorage.setItem('abrasimov-cv-theme', theme);
+  }, [theme]);
 
   const root = useRef(document.getElementById('root'));
 

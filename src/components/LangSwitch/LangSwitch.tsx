@@ -50,7 +50,9 @@ function LangSwitch() {
       />
 
       <input
-        onChange={() => dispatch(setEnLangAction())}
+        onChange={() => {
+          dispatch(setEnLangAction());
+        }}
         id={'en-btn'}
         name={'lang-switch'}
         type="radio"
@@ -63,7 +65,9 @@ function LangSwitch() {
         htmlFor={'ru-btn'}
       />
       <input
-        onChange={() => dispatch(setRuLangAction())}
+        onChange={() => {
+          dispatch(setRuLangAction());
+        }}
         id={'ru-btn'}
         name={'lang-switch'}
         type="radio"
@@ -77,7 +81,9 @@ function LangSwitch() {
       />
 
       <input
-        onChange={() => dispatch(setUaLangAction())}
+        onChange={() => {
+          dispatch(setUaLangAction());
+        }}
         id={'ua-btn'}
         name={'lang-switch'}
         type="radio"
