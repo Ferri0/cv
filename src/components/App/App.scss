@@ -2,6 +2,9 @@
 
 .app {
   position: relative;
+  background-repeat: no-repeat;
+  background-position: 0 90px;
+  background-size: contain;
   @include flex(row, flex-start, center);
 
   @media (max-width: 1150px) {
@@ -10,9 +13,19 @@
 
   &--dark {
     background-color: $color-side-column-bg;
+    background-image: url('../../assets/cv_dark.png');
+
+    @media (max-width: 1150px) {
+      background-image: none;
+    }
   }
 
   &--light {
     background-color: $color-side-column-bg-light;
+    background-image: url('../../assets/cv_light.png');
+
+    @media (max-width: 1150px) {
+      background-image: none;
+    }
   }
 }

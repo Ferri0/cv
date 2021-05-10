@@ -20,7 +20,7 @@
       },
       {
         "project": "Covid-19 dashboard",
-        "linkText": "covid-19-dashboard.github.io",
+        "linkText": "сovid-19-dashboard.netlify.app",
         "url": "https://covid-19-dashboard-ferri0.netlify.app",
         "description": "Dashboard about COVID-19 pandemic around the world. Include detailed statistics with interactive maps, graphs and tables"
       },

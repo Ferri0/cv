@@ -1,5 +1,30 @@
-// example
-// background-color: $color-red;
+// animations
+@keyframes shift-right {
+  from {
+    transform: translate(-400px, 0);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes shift-left {
+  from {
+    transform: translate(400px, 0);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 // layout height
 $layout-height: 1750px;
@@ -39,7 +64,7 @@ $color-block-period: #737373;
 $color-block-description: #fff;
 
 // layout colors light
-$color-side-column-bg-light: #eaeaea;
+$color-side-column-bg-light: #dddcdc;
 $color-central-column-bg-light: #a5bef0;
 $color-separator-light: #00145c;
 $color-separator-central-light: #00145c;

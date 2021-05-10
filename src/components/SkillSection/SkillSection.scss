@@ -1,6 +1,7 @@
 @import '../../scss/abstracts.scss';
 
 .skills {
+  position: relative;
   width: 100%;
   height: 225px;
   margin-top: $margin-separator-2;
@@ -8,6 +9,7 @@
 
   @media (max-width: 1150px) {
     order: 1;
+    margin-bottom: 0;
   }
 
   &--left {
@@ -16,5 +18,14 @@
 
   &--right {
     @include flex(column, flex-end, flex-start);
+    @media (max-width: 1150px) {
+      height: 160px;
+    }
+
+    & .section-title {
+      @media (max-width: 1150px) {
+        display: none;
+      }
+    }
   }
 }

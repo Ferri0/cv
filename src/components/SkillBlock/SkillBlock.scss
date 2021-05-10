@@ -6,6 +6,7 @@
 }
 
 .skill-block {
+  position: relative;
   @extend %font-block-skill;
   width: 100%;
   margin-top: $margin-separator-2;
@@ -19,6 +20,8 @@
   }
 
   &--left-column {
+    position: relative;
+    @extend %animation-shift-left;
     @include flex(row, flex-end, flex-start);
 
     & .skill-block__points {
@@ -36,6 +39,8 @@
   }
 
   &--right-column {
+    position: relative;
+    @extend %animation-shift-right;
     @include flex(row-reverse, flex-end, flex-start);
 
     & .skill-block__points {

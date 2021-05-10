@@ -1,11 +1,13 @@
 @import '../../scss/abstracts';
 
 .education {
+  position: relative;
   width: 100%;
   margin-top: $margin-separator-2;
 
   @media (max-width: 1150px) {
     order: 2;
+    margin-top: 0;
     padding: 20px 0;
   }
 }

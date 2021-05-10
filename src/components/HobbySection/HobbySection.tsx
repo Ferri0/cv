@@ -20,7 +20,7 @@ function HobbySection() {
   );
 
   return (
-    <section className={'xyz-in hobby-section'}>
+    <section className={'hobby-section'}>
       <div className={`hobby-section__title hobby-section__title--${theme}`}>
         {hobbyText.hobbySectionTitle[lang]}
       </div>

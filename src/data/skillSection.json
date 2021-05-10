@@ -40,7 +40,7 @@
         "level": "5"
       },
       {
-        "skill": "Redux/Redux-Saga",
+        "skill": "Redux",
         "level": "4"
       },
       {
@@ -53,7 +53,7 @@
       },
       {
         "skill": "Node.js",
-        "level": "3"
+        "level": "2"
       }
     ]
   }
